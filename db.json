@@ -14,7 +14,16 @@
           "youtube": "https://www.youtube.com/c/VladilenMinin",
           "facebook": "https://www.facebook.com/"
         },
-      "involvedInDevelopment": ""
+      "involvedInDevelopment": "",
+      "slider": [
+        {
+          "id": "",
+          "title":  "",
+          "img":  "",
+          "description": "",
+          "url": ""
+        }
+      ]
     },
     {
       "id": 2,
@@ -24,7 +33,16 @@
       "about": "",
       "img": "https://klike.net/uploads/posts/2019-05/1556708032_1.jpg",
       "socialNetworks": "",
-      "involvedInDevelopment": ""
+      "involvedInDevelopment": "",
+      "slider": [
+        {
+          "id": "",
+          "title":  "",
+          "img":  "",
+          "description": "",
+          "url": ""
+        }
+      ]
     },
     {
       "id": 3,
@@ -34,7 +52,16 @@
       "about": "",
       "img": "https://klike.net/uploads/posts/2019-05/1556708032_1.jpg",
       "socialNetworks": "",
-      "involvedInDevelopment": ""
+      "involvedInDevelopment": "",
+      "slider": [
+        {
+          "id": "",
+          "title":  "",
+          "img":  "",
+          "description": "",
+          "url": ""
+        }
+      ]
     },
     {
       "id": 4,
@@ -44,7 +71,16 @@
       "about": "",
       "img": "https://klike.net/uploads/posts/2019-05/1556708032_1.jpg",
       "socialNetworks": "",
-      "involvedInDevelopment": ""
+      "involvedInDevelopment": "",
+      "slider": [
+        {
+          "id": "",
+          "title":  "",
+          "img":  "",
+          "description": "",
+          "url": ""
+        }
+      ]
     },
     {
       "id": 5,
@@ -54,7 +90,16 @@
       "about": "",
       "img": "https://klike.net/uploads/posts/2019-05/1556708032_1.jpg",
       "socialNetworks": "",
-      "involvedInDevelopment": ""
+      "involvedInDevelopment": "",
+      "slider": [
+        {
+          "id": "",
+          "title":  "",
+          "img":  "",
+          "description": "",
+          "url": ""
+        }
+      ]
     }
   ]
 }
