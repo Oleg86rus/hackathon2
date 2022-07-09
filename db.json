@@ -5,6 +5,7 @@
       "name": "Vera",
       "surname": "Petrova",
       "age": "25",
+      "bookmark": false,
       "about": "Меня зовут Вера. Мне 25 лет. По образованию биохимик и эколог. За время учебы в университете получила с отличием 2 диплома и огромный багаж знаний. Работала учителем в сельской школе и поняла, что в этой сфере есть свои ограничения. В данный момент времени заканчиваю курс «Junior Frontend Developer». До этого работала в компании One Touch фронтенд разработчиком. Прошла стажировку (была официально устроена), но в связи с некоторыми печальными обстоятельствами вынуждена была уйти. За время работы выполняла мелкие поручения, а также начала вести свой собственный проект на технологии Quasar. Имею опыт работы с Git, legacy-код (соединение php, js, jquery, битрикс), препроцессоры, Bootstrap, Material, Webpack, Vue, Gulp, React, Mongo BD, laravel, БЭМ, Figma, GitLab.",
       "img": "https://sun9-east.userapi.com/sun9-25/s/v1/ig2/0BO4eA4SBjT5_obIUIMtLNH_eJ31FNLAs7RBQ9XLTMALdokOtiVbL0Q6WdxDoOCda8Lv6adHPOXX5xUMr1qVEuaS.jpg?size=1617x2160&quality=95&type=album",
       "socialNetworks": {
@@ -64,61 +65,72 @@
         {
           "id": "1",
           "title": "HTML",
-          "progress": "60"
+          "progress": "60",
+          "color": ""
         },
         {
           "id": "2",
           "title": "CSS",
-          "progress": "50"
+          "progress": "50",
+          "color": ""
         },
         {
           "id": "3",
           "title": "JavaScript",
-          "progress": "47"
+          "progress": "47",
+          "color": ""
         },
         {
           "id": "4",
           "title": "Git",
-          "progress": "30"
+          "progress": "30",
+          "color": ""
         },
         {
           "id": "5",
           "title": "Bootstrap",
-          "progress": "40"
+          "progress": "40",
+          "color": ""
         },
         {
           "id": "6",
           "title": "Gulp",
-          "progress": "15"
+          "progress": "15",
+          "color": ""
         },
         {
           "id": "7",
           "title": "Webpack",
-          "progress": "25"
+          "progress": "25",
+          "color": ""
         },
         {
           "id": "8",
           "title": "React",
-          "progress": "48"
+          "progress": "48",
+          "color": ""
         },
         {
           "id": "9",
           "title": "Vue",
-          "progress": "33"
+          "progress": "33",
+          "color": ""
         },
         {
           "id": "10",
           "title": "Redux",
-          "progress": "23"
+          "progress": "23",
+          "color": ""
         }
       ]
     },
     {
       "id": 2,
-      "name": "22222",
-      "surname": "2222222",
+      "name": "Иван",
+      "surname": "Иванов",
       "age": "25",
       "about": "",
+      "bookmark": false,
       "img": "https://klike.net/uploads/posts/2019-05/1556708032_1.jpg",
       "socialNetworks": "",
       "involvedInDevelopment": "",
@@ -135,16 +147,18 @@
         {
           "id": "",
           "title": "",
-          "progress": ""
+          "progress": "",
+          "color": ""
         }
       ]
     },
     {
       "id": 3,
-      "name": "33333333333333",
-      "surname": "33333333333333333333",
+      "name": "Петр",
+      "surname": "Петров",
       "age": "25",
       "about": "",
+      "bookmark": false,
       "img": "https://klike.net/uploads/posts/2019-05/1556708032_1.jpg",
       "socialNetworks": "",
       "involvedInDevelopment": "",
@@ -161,16 +175,18 @@
         {
           "id": "",
           "title": "",
-          "progress": ""
+          "progress": "",
+          "color": ""
         }
       ]
     },
     {
       "id": 4,
-      "name": "44444444444444444444444",
-      "surname": "4444444444444444444444",
+      "name": "Марина",
+      "surname": "Маринова",
       "age": "25",
       "about": "",
+      "bookmark": false,
       "img": "https://klike.net/uploads/posts/2019-05/1556708032_1.jpg",
       "socialNetworks": "",
       "involvedInDevelopment": "",
@@ -187,17 +203,19 @@
         {
           "id": "",
           "title": "",
-          "progress": ""
+          "progress": "",
+          "color": ""
         }
       ]
     },
     {
       "id": 5,
-      "name": "555555555555555555",
-      "surname": "5555555555555555555555555555",
-      "age": "25",
+      "name": "Лена",
+      "surname": "Ерофеева",
+      "age": "39",
       "about": "",
-      "img": "https://klike.net/uploads/posts/2019-05/1556708032_1.jpg",
+      "bookmark": false,
+      "img": "https://i.ibb.co/PzwKcYj/photo.jpg",
       "socialNetworks": "",
       "involvedInDevelopment": "",
       "slider": [
@@ -213,7 +231,8 @@
         {
           "id": "",
           "title": "",
-          "progress": ""
+          "progress": "",
+          "color": ""
         }
       ]
     }
