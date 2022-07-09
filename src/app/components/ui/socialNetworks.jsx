@@ -7,43 +7,43 @@ import {AiFillYoutube} from "@react-icons/all-files/ai/AiFillYoutube";
 import {AiFillFacebook} from "@react-icons/all-files/ai/AiFillFacebook";
 
 const SocialNetworks = ({socialNetworks}) => {
-    return (
-        <>
-            <NavLink
-                className="navLinkStyle"
-                target={"_blank"}
-                to={{pathname: `${socialNetworks.instagram}`}}
-            >
-                <AiFillInstagram/>
-            </NavLink>
+  return (
+    <>
+      <NavLink
+        className="navLinkStyle"
+        target={"_blank"}
+        to={{pathname: `${socialNetworks.instagram}`}}
+      >
+        <AiFillInstagram/>
+      </NavLink>
 
-            <NavLink
-                className="navLinkStyle"
-                target={"_blank"}
-                to={{pathname: `${socialNetworks.telegram}`}}
-            >
-                <SiTelegram/>
-            </NavLink>
-            <NavLink
-                className="navLinkStyle"
-                target={"_blank"}
-                to={{pathname: `${socialNetworks.telegram}`}}
-            >
-                <AiFillYoutube/>
-            </NavLink>
-            <NavLink
-                className="navLinkStyle"
-                target={"_blank"}
-                to={{pathname: `${socialNetworks.telegram}`}}
-            >
-                <AiFillFacebook/>
-            </NavLink>
-        </>
-    );
+      <NavLink
+        className="navLinkStyle"
+        target={"_blank"}
+        to={{pathname: `${socialNetworks.telegram}`}}
+      >
+        <SiTelegram/>
+      </NavLink>
+      <NavLink
+        className="navLinkStyle"
+        target={"_blank"}
+        to={{pathname: `${socialNetworks.telegram}`}}
+      >
+        <AiFillYoutube/>
+      </NavLink>
+      <NavLink
+        className="navLinkStyle"
+        target={"_blank"}
+        to={{pathname: `${socialNetworks.telegram}`}}
+      >
+        <AiFillFacebook/>
+      </NavLink>
+    </>
+  );
 };
 
 SocialNetworks.prototype = {
-    socialNetworks: PropTypes.array
+  socialNetworks: PropTypes.array
 };
 
 export default SocialNetworks;
