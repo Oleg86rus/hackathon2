@@ -1,0 +1,72 @@
+.progressBar {
+  width: 300px;
+  padding: 20px;
+  position: relative;
+}
+
+.progress__bar {
+  /* width: 200px; */
+  height: 18px;
+  border-radius: 6px;
+  background-color: #ccc;
+
+  overflow: hidden;
+}
+
+.progress__inner {
+  color: #fff;
+  height: 100%;
+  border-radius: 4px;
+}
+
+.progres__percent {
+  font-size: 12px;
+  padding: 0 20px;
+}
+
+.progress__bar.circle {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  padding: 20px;
+
+  -webkit-box-shadow: 0px 0px 10px 1px rgba(34, 60, 80, 0.42);
+  -moz-box-shadow: 0px 0px 10px 1px rgba(34, 60, 80, 0.42);
+  box-shadow: 0px 0px 10px 1px rgba(34, 60, 80, 0.42);
+}
+
+.progress__inner.circle {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  background-color: rgba(44, 23, 23, 0.212);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  -webkit-box-shadow: 0px 0px 13px 3px rgba(34, 60, 80, 0.32) inset;
+  -moz-box-shadow: 0px 0px 13px 3px rgba(34, 60, 80, 0.32) inset;
+  box-shadow: 0px 0px 13px 3px rgba(34, 60, 80, 0.32) inset;
+}
+
+.progres__percent.circle {
+  padding: 0;
+  font-size: 17px;
+}
+
+svg {
+  position: absolute;
+  top: 66px;
+  left: 20px;
+  z-index: 1;
+}
+
+circle {
+  fill: none;
+  stroke: url("#gradientColor");
+  stroke-width: 20px;
+  border-radius: 100%;
+  stroke-dasharray: 472;
+  /* stroke-dashoffset: 0; */
+  animation: anim 1s linear forwards;
+}

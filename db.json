@@ -8,18 +8,18 @@
       "about": "",
       "img": "https://sun9-east.userapi.com/sun9-25/s/v1/ig2/0BO4eA4SBjT5_obIUIMtLNH_eJ31FNLAs7RBQ9XLTMALdokOtiVbL0Q6WdxDoOCda8Lv6adHPOXX5xUMr1qVEuaS.jpg?size=1617x2160&quality=95&type=album",
       "socialNetworks": {
-          "vk": "https://vk.com/id45281246",
-          "telegram": "https://t.me/result_school_it",
-          "instagram": "https://www.instagram.com/result.school.it",
-          "youtube": "https://www.youtube.com/c/VladilenMinin",
-          "facebook": "https://www.facebook.com/"
-        },
+        "vk": "https://vk.com/id45281246",
+        "telegram": "https://t.me/result_school_it",
+        "instagram": "https://www.instagram.com/result.school.it",
+        "youtube": "https://www.youtube.com/c/VladilenMinin",
+        "facebook": "https://www.facebook.com/"
+      },
       "involvedInDevelopment": "",
       "slider": [
         {
           "id": "",
-          "title":  "",
-          "img":  "",
+          "title": "",
+          "img": "",
           "description": "",
           "url": ""
         }
@@ -34,27 +34,42 @@
     },
     {
       "id": 2,
-      "name": "22222",
-      "surname": "2222222",
-      "age": "25",
-      "about": "",
-      "img": "https://klike.net/uploads/posts/2019-05/1556708032_1.jpg",
-      "socialNetworks": "",
+      "name": "Tahir",
+      "surname": "Ivanov",
+      "age": "29",
+      "about": "https://github.com/watefalls",
+      "img": "https://sun9-79.userapi.com/impf/c849220/v849220648/285e9/Y1a27jU41_8.jpg?size=960x960&quality=96&sign=6f62a3c6c355e57dcfa4a7291b60d1a6&type=album",
+      "socialNetworks": "https://vk.com/tahirkataha",
       "involvedInDevelopment": "",
       "slider": [
         {
           "id": "",
-          "title":  "",
-          "img":  "",
+          "title": "",
+          "img": "",
           "description": "",
           "url": ""
         }
       ],
       "progressBar": [
         {
-          "id": "",
-          "title": "",
-          "progress": ""
+          "id": "1",
+          "title": "html",
+          "progress": "60"
+        },
+        {
+          "id": "2",
+          "title": "css",
+          "progress": "50"
+        },
+        {
+          "id": "3",
+          "title": "js",
+          "progress": "30"
+        },
+        {
+          "id": "4",
+          "title": "React",
+          "progress": "55"
         }
       ]
     },
@@ -70,8 +85,8 @@
       "slider": [
         {
           "id": "",
-          "title":  "",
-          "img":  "",
+          "title": "",
+          "img": "",
           "description": "",
           "url": ""
         }
@@ -96,8 +111,8 @@
       "slider": [
         {
           "id": "",
-          "title":  "",
-          "img":  "",
+          "title": "",
+          "img": "",
           "description": "",
           "url": ""
         }
@@ -122,8 +137,8 @@
       "slider": [
         {
           "id": "",
-          "title":  "",
-          "img":  "",
+          "title": "",
+          "img": "",
           "description": "",
           "url": ""
         }
