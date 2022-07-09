@@ -1,20 +1,23 @@
 import React from "react";
-import {Container} from "react-bootstrap";
+import { Container } from "react-bootstrap";
+import TextAnimation from "../common/textAnimation/textAnimation";
+import Wave from "../common/vawe/wave";
 import UsersListPage from "../page/usersListPage";
 
 const Main = () => {
   return (
-    <Container>
-      Main
+    <div className="main-wrapper">
+      <Container>
+        <TextAnimation text={"Добро пожаловать!"}/>
 
-      <h1>
-        - Отобразить информацию о команде (минимум - просто текстовая информация)
-        - Представить каждого участника команды (список с
-        [карточками](https://www.notion.so/617b323ef4434c34b7906c9270015da2))
-      </h1>
+        <p className="mb-5">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi dicta delectus quod voluptate quia corrupti accusamus, perferendis totam id nisi ipsum maiores sed repellendus unde, dolor maxime possimus veniam quisquam!
+        </p>
 
-      <UsersListPage/>
-    </Container>
+        <UsersListPage />
+      </Container>
+      <Wave />
+    </div>
   );
 };
 
