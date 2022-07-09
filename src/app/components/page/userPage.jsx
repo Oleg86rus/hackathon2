@@ -10,15 +10,14 @@ const UserPage = ({userId}) => {
   const [user, setUser] = useState();
 
   useEffect(() => {
-    fetch("http://localhost:3004/users/1")
+    console.log("userId", userId);
+    fetch(`http://localhost:3004/users/${1}`)
+    // fetch(`http://localhost:3004/users/${userId}`)
       .then((res) => res.json())
       .then((result) => {
         setUser(result);
       });
   }, []);
-
-  console.log("user", user);
-  console.log("userId", userId);
 
   if (user === undefined) {
     return "...loading";
@@ -38,7 +37,7 @@ const UserPage = ({userId}) => {
                       </h1>
                       <Line/>
                     </Col>
-                    <Col className="mt-2 d-flex justify-content-between w-25">
+                    <Col className="mt-2 d-flex justify-content-between w-50">
                       <SocialNetworks socialNetworks={user.socialNetworks}/>
                     </Col>
                   </Row>
@@ -58,7 +57,7 @@ const UserPage = ({userId}) => {
               </Row>
             </Col>
             <Col xs={6} md={6} className="d-flex justify-content-center">
-              <Image src={user.img} className="w-75"/>
+              <Image src={user.img} className="w-75 border-radius"/>
             </Col>
           </Row>
           <Row className="mt-5 d-flex flex-column">
@@ -94,10 +93,7 @@ const UserPage = ({userId}) => {
                   времени без сна и останавливаются только для того, чтобы поесть и попить.
                 </Col>
                 <Col>
-                  Я, как часть этого большого механизма сотворил:
-                  !!!Задача организации, в особенности же дальнейшее развитие различных форм деятельности
-                  представляет собой интересный эксперимент проверки дальнейших направлений развития.
-                  Повседневная практика показывает, что сложившаяся структура организации способствует!!!
+                  {user.involvedInDevelopment}
                 </Col>
               </Row>
             </Col>

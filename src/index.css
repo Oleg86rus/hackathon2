@@ -36,3 +36,7 @@ code {
 .banner-background-black {
   background-color: #000000;
 }
+
+.border-radius {
+  border-radius: 10%;
+}
