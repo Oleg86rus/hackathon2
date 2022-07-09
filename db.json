@@ -5,30 +5,111 @@
       "name": "Vera",
       "surname": "Petrova",
       "age": "25",
-      "about": "",
+      "about": "Меня зовут Вера. Мне 25 лет. По образованию биохимик и эколог. За время учебы в университете получила с отличием 2 диплома и огромный багаж знаний. Работала учителем в сельской школе и поняла, что в этой сфере есть свои ограничения. В данный момент времени заканчиваю курс «Junior Frontend Developer». До этого работала в компании One Touch фронтенд разработчиком. Прошла стажировку (была официально устроена), но в связи с некоторыми печальными обстоятельствами вынуждена была уйти. За время работы выполняла мелкие поручения, а также начала вести свой собственный проект на технологии Quasar. Имею опыт работы с Git, legacy-код (соединение php, js, jquery, битрикс), препроцессоры, Bootstrap, Material, Webpack, Vue, Gulp, React, Mongo BD, laravel, БЭМ, Figma, GitLab.",
       "img": "https://sun9-east.userapi.com/sun9-25/s/v1/ig2/0BO4eA4SBjT5_obIUIMtLNH_eJ31FNLAs7RBQ9XLTMALdokOtiVbL0Q6WdxDoOCda8Lv6adHPOXX5xUMr1qVEuaS.jpg?size=1617x2160&quality=95&type=album",
       "socialNetworks": {
-          "vk": "https://vk.com/id45281246",
-          "telegram": "https://t.me/result_school_it",
-          "instagram": "https://www.instagram.com/result.school.it",
-          "youtube": "https://www.youtube.com/c/VladilenMinin",
-          "facebook": "https://www.facebook.com/"
+          "telegram": "https://xn--80affa3aj0al.xn--80asehdb/#/im",
+          "instagram": "https://www.instagram.com/another_makizar/",
+          "facebook": "https://www.facebook.com/Petr0vaVera",
+          "github": "https://github.com/Krab-Krim",
+          "linkedin": "https://www.linkedin.com/feed/",
+          "headhunter": "https://hh.ru/resume/1d087f27ff08c6fa890039ed1f68666c754e66"
         },
-      "involvedInDevelopment": "",
+      "involvedInDevelopment": "Что же на счет меня самой, то я часть этого большого механизма. Однако, выполняла поставленные задачи в срок и с большим усердием. Разработала компоненты для реализации персональной страницы пользователя. Предложила готовые библиотеки для реализации некоторых задач из ТЗ.",
       "slider": [
         {
-          "id": "",
-          "title":  "",
-          "img":  "",
-          "description": "",
-          "url": ""
+          "id": "1",
+          "title":  "Калькулятор стоимости дома из бруса",
+          "img":  "https://sun9-north.userapi.com/sun9-88/s/v1/ig2/YOF8zfEkhcp81YTDrpjdVwD8qpUQtEKnIlLid7B63SG8PYiuvtoTzTxVOSeblQB-oVR_qMsRj5PFOT3DzLnEIIG8.jpg?size=1325x845&quality=96&type=album",
+          "description": "Проект создан для расчета стоимости дома. В данный калькулятор входит измерение площади дома, выбор типа постройки, количества комнат и широкий профиль дополнительных услуг. При большом количестве запросов калькулятор быстро рассчитывает итоговую стоимость",
+          "url": "https://github.com/Krab-Krim/calculator"
+        },
+        {
+          "id": "2",
+          "title":  "Калькулятор стоимости дома из бруса",
+          "img":  "https://sun9-north.userapi.com/sun9-88/s/v1/ig2/3qvCENaHQ1j6wa_-FaZfJqHSlcghRrpQH7dsos4vm0KAj6jpTjJAlP93G6prmh_KUvig_0Bqt-yIIFr6IrIdTCYb.jpg?size=1441x926&quality=96&type=album",
+          "description": "Проект создан для расчета стоимости автомобиля в лизинг. При расчете конечной стоимости автомобиля используется разная ставка для каждого банка. С помощью ползунка вы можете выбрать стоимость автомобиля, срок лизинга и первоначальный взнос. Калькулятор способен рассчитать и точно вывести сумму кредита, ежемесячный платеж, рекомендуемый доход и сумма договора лизинга",
+          "url": "https://github.com/Krab-Krim/test"
+        },
+        {
+          "id": "3",
+          "title":  "Карточка студента",
+          "img":  "https://sun9-east.userapi.com/sun9-25/s/v1/ig2/8Ld0wY03uykN6-51RKNEiy0xum5HvA-edEQagpXdY_lQOatu1lkn0Dvf_y-7i8l-x8Rox0a-UiVWwYv5pxw5obf6.jpg?size=1900x928&quality=96&type=album",
+          "description": "Проект создан на основе технологий HTML и CSS",
+          "url": "https://github.com/Krab-Krim/test"
+        },
+        {
+          "id": "4",
+          "title":  "Портфолио",
+          "img":  "https://sun9-north.userapi.com/sun9-87/s/v1/ig2/81uxv2Id8SMfYLluGpyiQ7hO-OiUGwp0fIJu-nnbBquLaWYCN-YKVsGD3u7rO_I9xe3vPyaoOv-1o4Du3fNoFn6G.jpg?size=1291x929&quality=96&type=album",
+          "description": "Проект создан для демонстрации работ и удобной связи со мной ",
+          "url": "https://github.com/Krab-Krim/card"
+        },
+        {
+          "id": "5",
+          "title":  "Тестовое задание",
+          "img":  "https://sun9-west.userapi.com/sun9-47/s/v1/ig2/nljVGkKT7L5f9e2Oz-YnJzZ0v1-3jLJmr7-BaesjpqitmFQ1ECjnBuBgA-qi8EvG7Af0QwODnlFPUuA-5GKv7Ipk.jpg?size=1855x924&quality=96&type=album",
+          "description": "Тестовое задание",
+          "url": "https://github.com/Krab-Krim/prototype"
+        },
+        {
+          "id": "6",
+          "title":  "Дипломная работа",
+          "img":  "https://sun9-north.userapi.com/sun9-87/s/v1/ig2/Q_MFrDAk99H3exY-wyYlXmWIJzeOlWsRI0VGVgteIW82B8m5PME11-_-FqGg96jaNKgsfCCSz4o1FrOTgv63hvY5.jpg?size=1865x921&quality=96&type=album",
+          "description": "Дипломная работа по окончаю курса",
+          "url": "https://github.com/Krab-Krim/diploma"
         }
       ],
       "progressBar": [
         {
-          "id": "",
-          "title": "",
-          "progress": ""
+          "id": "1",
+          "title": "HTML",
+          "progress": "60"
+        },
+        {
+          "id": "2",
+          "title": "CSS",
+          "progress": "50"
+        },
+        {
+          "id": "3",
+          "title": "JavaScript",
+          "progress": "47"
+        },
+        {
+          "id": "4",
+          "title": "Git",
+          "progress": "30"
+        },
+        {
+          "id": "5",
+          "title": "Bootstrap",
+          "progress": "40"
+        },
+        {
+          "id": "6",
+          "title": "Gulp",
+          "progress": "15"
+        },
+        {
+          "id": "7",
+          "title": "Webpack",
+          "progress": "25"
+        },
+        {
+          "id": "8",
+          "title": "React",
+          "progress": "48"
+        },
+        {
+          "id": "9",
+          "title": "Vue",
+          "progress": "33"
+        },
+        {
+          "id": "10",
+          "title": "Redux",
+          "progress": "23"
         }
       ]
     },

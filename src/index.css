@@ -19,3 +19,24 @@ code {
 }
 
 .navLinkStyle:hover {color: #EB4367 !important;}
+
+.position-fixed-button {
+  position: fixed;
+  right: 10px;
+  top: 90%;
+  padding: 10px;
+  background: #ffe;
+  border: 1px solid #333;
+  z-index: 12 !important;
+}
+
+.banner-background {
+  background-color: #fdbf08;
+}
+.banner-background-black {
+  background-color: #000000;
+}
+
+.border-radius {
+  border-radius: 10%;
+}
