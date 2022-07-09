@@ -121,7 +121,23 @@
       "about": "",
       "img": "https://klike.net/uploads/posts/2019-05/1556708032_1.jpg",
       "socialNetworks": "",
-      "involvedInDevelopment": ""
+      "involvedInDevelopment": "",
+      "slider": [
+        {
+          "id": "",
+          "title":  "",
+          "img":  "",
+          "description": "",
+          "url": ""
+        }
+      ],
+      "progressBar": [
+        {
+          "id": "",
+          "title": "",
+          "progress": ""
+        }
+      ]
     },
     {
       "id": 3,
@@ -131,7 +147,23 @@
       "about": "",
       "img": "https://klike.net/uploads/posts/2019-05/1556708032_1.jpg",
       "socialNetworks": "",
-      "involvedInDevelopment": ""
+      "involvedInDevelopment": "",
+      "slider": [
+        {
+          "id": "",
+          "title":  "",
+          "img":  "",
+          "description": "",
+          "url": ""
+        }
+      ],
+      "progressBar": [
+        {
+          "id": "",
+          "title": "",
+          "progress": ""
+        }
+      ]
     },
     {
       "id": 4,
@@ -141,7 +173,23 @@
       "about": "",
       "img": "https://klike.net/uploads/posts/2019-05/1556708032_1.jpg",
       "socialNetworks": "",
-      "involvedInDevelopment": ""
+      "involvedInDevelopment": "",
+      "slider": [
+        {
+          "id": "",
+          "title":  "",
+          "img":  "",
+          "description": "",
+          "url": ""
+        }
+      ],
+      "progressBar": [
+        {
+          "id": "",
+          "title": "",
+          "progress": ""
+        }
+      ]
     },
     {
       "id": 5,
@@ -151,7 +199,23 @@
       "about": "",
       "img": "https://klike.net/uploads/posts/2019-05/1556708032_1.jpg",
       "socialNetworks": "",
-      "involvedInDevelopment": ""
+      "involvedInDevelopment": "",
+      "slider": [
+        {
+          "id": "",
+          "title":  "",
+          "img":  "",
+          "description": "",
+          "url": ""
+        }
+      ],
+      "progressBar": [
+        {
+          "id": "",
+          "title": "",
+          "progress": ""
+        }
+      ]
     }
   ]
 }
