@@ -5,7 +5,7 @@
       "name": "Vera",
       "surname": "Petrova",
       "age": "25",
-      "about": "",
+      "about": "Меня зовут Вера. Мне 25 лет. По образованию биохимик и эколог. За время учебы в университете получила с отличием 2 диплома и огромный багаж знаний. Работала учителем в сельской школе и поняла, что в этой сфере есть свои ограничения. В данный момент времени заканчиваю курс «Junior Frontend Developer». До этого работала в компании One Touch фронтенд разработчиком. Прошла стажировку (была официально устроена), но в связи с некоторыми печальными обстоятельствами вынуждена была уйти. За время работы выполняла мелкие поручения, а также начала вести свой собственный проект на технологии Quasar. Имею опыт работы с Git, legacy-код (соединение php, js, jquery, битрикс), препроцессоры, Bootstrap, Material, Webpack, Vue, Gulp, React, Mongo BD, laravel, БЭМ, Figma, GitLab.",
       "img": "https://sun9-east.userapi.com/sun9-25/s/v1/ig2/0BO4eA4SBjT5_obIUIMtLNH_eJ31FNLAs7RBQ9XLTMALdokOtiVbL0Q6WdxDoOCda8Lv6adHPOXX5xUMr1qVEuaS.jpg?size=1617x2160&quality=95&type=album",
       "socialNetworks": {
           "vk": "https://vk.com/id45281246",
