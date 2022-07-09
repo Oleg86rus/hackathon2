@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import {Redirect, Route, Switch} from "react-router-dom";
+import NavBar from "./app/components/ui/navBar";
+import Breadcrumbs from "./app/components/common/breadcrumbs";
+import Main from "./app/components/layouts/main";
+import NotFound from "./app/components/page/notFound";
+import UserPage from "./app/components/page/userPage";
+import Users from "./app/components/layouts/users";
+import Favorites from "./app/components/layouts/favorites";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <NavBar/>
+      <Breadcrumbs/>
+      <Switch>
+        <Route path="/" exact component={Main}/>
+        <Route path="/user" component={Users}/>
+        <Route path="/user/:userId?" component={UserPage}/>
+        <Route path="/favorites" component={Favorites}/>
+        <Route path="/users/404" component={NotFound}/>
+        <Redirect to="404"/>
+      </Switch>
     </div>
   );
 }

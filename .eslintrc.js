@@ -3,12 +3,6 @@ module.exports = {
     browser: true,
     es2021: true
   },
-  extends: [
-    'plugin:react/recommended',
-    'airbnb-base/legacy',
-    'plugin:react/jsx-runtime',
-    'prettier'
-  ],
   parserOptions: {
     ecmaFeatures: {
       jsx: true
@@ -20,5 +14,6 @@ module.exports = {
   rules: {
     indent: ['error', 2],
     semi: [2, 'always'],
+    quotes: ["error", "double"]
   }
 };
