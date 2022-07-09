@@ -20,7 +20,6 @@ const UsersListPage = () => {
   }, []);
 
 
-
   if (users === undefined) {
     return "...loading";
   } else {
