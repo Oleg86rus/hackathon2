@@ -23,6 +23,13 @@
           "description": "",
           "url": ""
         }
+      ],
+      "progressBar": [
+        {
+          "id": "",
+          "title": "",
+          "progress": ""
+        }
       ]
     },
     {
@@ -41,6 +48,13 @@
           "img":  "",
           "description": "",
           "url": ""
+        }
+      ],
+      "progressBar": [
+        {
+          "id": "",
+          "title": "",
+          "progress": ""
         }
       ]
     },
@@ -61,6 +75,13 @@
           "description": "",
           "url": ""
         }
+      ],
+      "progressBar": [
+        {
+          "id": "",
+          "title": "",
+          "progress": ""
+        }
       ]
     },
     {
@@ -80,6 +101,13 @@
           "description": "",
           "url": ""
         }
+      ],
+      "progressBar": [
+        {
+          "id": "",
+          "title": "",
+          "progress": ""
+        }
       ]
     },
     {
@@ -98,6 +126,13 @@
           "img":  "",
           "description": "",
           "url": ""
+        }
+      ],
+      "progressBar": [
+        {
+          "id": "",
+          "title": "",
+          "progress": ""
         }
       ]
     }
