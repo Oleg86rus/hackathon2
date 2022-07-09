@@ -3,8 +3,10 @@ import { Container } from "react-bootstrap";
 import TextAnimation from "../common/textAnimation/textAnimation";
 import Wave from "../common/vawe/wave";
 import UsersListPage from "../page/usersListPage";
+import { stopTyping } from "../utils/stopTyping";
 
 const Main = () => {
+  stopTyping();
   return (
     <div className="main-wrapper">
       <Container>
@@ -20,7 +22,7 @@ const Main = () => {
         <UsersListPage />
       </Container>
       <div
-        class="RadialProgress"
+        className="RadialProgress"
         role="progressbar"
         aria-valuenow="25"
         aria-valuemin="0"

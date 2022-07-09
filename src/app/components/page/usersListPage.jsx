@@ -8,7 +8,7 @@ import Bookmark from "../common/bookmark/bookmark";
 const UsersListPage = () => {
   const [users, setUser] = useState();
 
-  const status = false;
+  const status = true;
 
   useEffect(() => {
     fetch("http://localhost:3004/users")
