@@ -5,7 +5,6 @@ import Line from "../common/line";
 import SocialNetworks from "../ui/socialNetworks";
 import LineBlack from "../common/lineBlack";
 import ButtonScrollTo from "../common/buttonScrollTo";
-import SliderBox from "../ui/slider";
 
 const UserPage = ({ userId }) => {
   const [user, setUser] = useState();
@@ -103,11 +102,6 @@ const UserPage = ({ userId }) => {
                 способствует!!!
               </Col>
             </Row>
-          </Col>
-        </Row>
-        <Row className="mt-5">
-          <Col>
-            <SliderBox userSlider={user.slider} />
           </Col>
         </Row>
       </Container>
