@@ -131,23 +131,90 @@
       "age": "25",
       "about": "",
       "bookmark": false,
-      "img": "https://klike.net/uploads/posts/2019-05/1556708032_1.jpg",
-      "socialNetworks": "",
+      "img": "https://disk.yandex.ru/i/r01mEj474OhTBg",
+      "socialNetworks": {
+        "vk": "https://vk.com/id45281246",
+        "telegram": "https://t.me/result_school_it",
+        "instagram": "https://www.instagram.com/result.school.it",
+        "youtube": "https://www.youtube.com/c/VladilenMinin",
+        "facebook": "https://www.facebook.com/"
+      },
       "involvedInDevelopment": "",
       "slider": [
         {
-          "id": "",
-          "title":  "",
-          "img":  "",
-          "description": "",
-          "url": ""
+          "id": "1",
+          "title":  "Карточка студента",
+          "img":  "https://sun9-east.userapi.com/sun9-25/s/v1/ig2/8Ld0wY03uykN6-51RKNEiy0xum5HvA-edEQagpXdY_lQOatu1lkn0Dvf_y-7i8l-x8Rox0a-UiVWwYv5pxw5obf6.jpg?size=1900x928&quality=96&type=album",
+          "description": "Проект создан на основе технологий HTML и CSS",
+          "url": "https://github.com/Krab-Krim/test"
+        },
+        {
+          "id": "2",
+          "title":  "Fast company",
+          "img":  "https://sun9-north.userapi.com/sun9-87/s/v1/ig2/81uxv2Id8SMfYLluGpyiQ7hO-OiUGwp0fIJu-nnbBquLaWYCN-YKVsGD3u7rO_I9xe3vPyaoOv-1o4Du3fNoFn6G.jpg?size=1291x929&quality=96&type=album",
+          "description": "Проект создан для демонстрации работ и удобной связи со мной ",
+          "url": "https://github.com/Krab-Krim/card"
         }
       ],
       "progressBar": [
         {
-          "id": "",
-          "title": "",
-          "progress": "",
+          "id": "1",
+          "title": "HTML",
+          "progress": "60",
+          "color": ""
+        },
+        {
+          "id": "2",
+          "title": "CSS",
+          "progress": "50",
+          "color": ""
+        },
+        {
+          "id": "3",
+          "title": "JavaScript",
+          "progress": "47",
+          "color": ""
+        },
+        {
+          "id": "4",
+          "title": "Git",
+          "progress": "30",
+          "color": ""
+        },
+        {
+          "id": "5",
+          "title": "Bootstrap",
+          "progress": "40",
+          "color": ""
+        },
+        {
+          "id": "6",
+          "title": "Gulp",
+          "progress": "15",
+          "color": ""
+        },
+        {
+          "id": "7",
+          "title": "Webpack",
+          "progress": "25",
+          "color": ""
+        },
+        {
+          "id": "8",
+          "title": "React",
+          "progress": "48",
+          "color": ""
+        },
+        {
+          "id": "9",
+          "title": "Vue",
+          "progress": "33",
+          "color": ""
+        },
+        {
+          "id": "10",
+          "title": "Redux",
+          "progress": "23",
           "color": ""
         }
       ]
@@ -159,51 +226,173 @@
       "age": "30",
       "about": "",
       "bookmark": false,
-      "img": "https://klike.net/uploads/posts/2019-05/1556708032_1.jpg",
+      "img": "https://disk.yandex.ru/i/4DwQlOcYF1-OFQ",
       "socialNetworks": "",
       "involvedInDevelopment": "",
       "slider": [
         {
-          "id": "",
-          "title":  "",
-          "img":  "",
-          "description": "",
-          "url": ""
+          "id": "1",
+          "title":  "Карточка студента",
+          "img":  "https://disk.yandex.ru/i/YY1uwIMI6MXLgg",
+          "description": "Проект создан на основе технологий HTML и CSS",
+          "url": "https://github.com/Oleg86rus?tab=repositories"
+        },
+        {
+          "id": "2",
+          "title":  "Fast company",
+          "img":  "https://disk.yandex.ru/i/vQ6qN8MktKDo4g",
+          "description": "Проект создан для демонстрации работ и удобной связи со мной ",
+          "url": "https://github.com/Oleg86rus/fast-company"
         }
       ],
       "progressBar": [
         {
-          "id": "",
-          "title": "",
-          "progress": "",
+          "id": "1",
+          "title": "HTML",
+          "progress": "60",
+          "color": ""
+        },
+        {
+          "id": "2",
+          "title": "CSS",
+          "progress": "50",
+          "color": ""
+        },
+        {
+          "id": "3",
+          "title": "JavaScript",
+          "progress": "47",
+          "color": ""
+        },
+        {
+          "id": "4",
+          "title": "Git",
+          "progress": "30",
+          "color": ""
+        },
+        {
+          "id": "5",
+          "title": "Bootstrap",
+          "progress": "40",
+          "color": ""
+        },
+        {
+          "id": "6",
+          "title": "Gulp",
+          "progress": "15",
+          "color": ""
+        },
+        {
+          "id": "7",
+          "title": "Webpack",
+          "progress": "25",
+          "color": ""
+        },
+        {
+          "id": "8",
+          "title": "React",
+          "progress": "48",
+          "color": ""
+        },
+        {
+          "id": "9",
+          "title": "Vue",
+          "progress": "33",
+          "color": ""
+        },
+        {
+          "id": "10",
+          "title": "Redux",
+          "progress": "23",
           "color": ""
         }
       ]
     },
     {
       "id": 4,
-      "name": "Марина",
-      "surname": "Маринова",
+      "name": "Сергей",
+      "surname": "Фомин",
       "age": "25",
       "about": "",
       "bookmark": false,
-      "img": "https://klike.net/uploads/posts/2019-05/1556708032_1.jpg",
+      "img": "https://disk.yandex.ru/i/vkn9dAz0j7YaKg",
       "socialNetworks": "",
       "involvedInDevelopment": "",
       "slider": [
         {
-          "id": "",
-          "title":  "",
-          "img":  "",
-          "description": "",
-          "url": ""
+          "id": "1",
+          "title":  "Карточка студента",
+          "img":  "https://sun9-east.userapi.com/sun9-25/s/v1/ig2/8Ld0wY03uykN6-51RKNEiy0xum5HvA-edEQagpXdY_lQOatu1lkn0Dvf_y-7i8l-x8Rox0a-UiVWwYv5pxw5obf6.jpg?size=1900x928&quality=96&type=album",
+          "description": "Проект создан на основе технологий HTML и CSS",
+          "url": "https://github.com/Krab-Krim/test"
+        },
+        {
+          "id": "2",
+          "title":  "Fast company",
+          "img":  "https://sun9-north.userapi.com/sun9-87/s/v1/ig2/81uxv2Id8SMfYLluGpyiQ7hO-OiUGwp0fIJu-nnbBquLaWYCN-YKVsGD3u7rO_I9xe3vPyaoOv-1o4Du3fNoFn6G.jpg?size=1291x929&quality=96&type=album",
+          "description": "Проект создан для демонстрации работ и удобной связи со мной ",
+          "url": "https://github.com/Krab-Krim/card"
         }
       ],
       "progressBar": [
         {
-          "id": "",
-          "title": "",
-          "progress": "",
+          "id": "1",
+          "title": "HTML",
+          "progress": "60",
+          "color": ""
+        },
+        {
+          "id": "2",
+          "title": "CSS",
+          "progress": "50",
+          "color": ""
+        },
+        {
+          "id": "3",
+          "title": "JavaScript",
+          "progress": "47",
+          "color": ""
+        },
+        {
+          "id": "4",
+          "title": "Git",
+          "progress": "30",
+          "color": ""
+        },
+        {
+          "id": "5",
+          "title": "Bootstrap",
+          "progress": "40",
+          "color": ""
+        },
+        {
+          "id": "6",
+          "title": "Gulp",
+          "progress": "15",
+          "color": ""
+        },
+        {
+          "id": "7",
+          "title": "Webpack",
+          "progress": "25",
+          "color": ""
+        },
+        {
+          "id": "8",
+          "title": "React",
+          "progress": "48",
+          "color": ""
+        },
+        {
+          "id": "9",
+          "title": "Vue",
+          "progress": "33",
+          "color": ""
+        },
+        {
+          "id": "10",
+          "title": "Redux",
+          "progress": "23",
           "color": ""
         }
       ]
@@ -229,9 +418,63 @@
       ],
       "progressBar": [
         {
-          "id": "",
-          "title": "",
-          "progress": "",
+          "id": "1",
+          "title": "HTML",
+          "progress": "60",
+          "color": ""
+        },
+        {
+          "id": "2",
+          "title": "CSS",
+          "progress": "50",
+          "color": ""
+        },
+        {
+          "id": "3",
+          "title": "JavaScript",
+          "progress": "47",
+          "color": ""
+        },
+        {
+          "id": "4",
+          "title": "Git",
+          "progress": "30",
+          "color": ""
+        },
+        {
+          "id": "5",
+          "title": "Bootstrap",
+          "progress": "40",
+          "color": ""
+        },
+        {
+          "id": "6",
+          "title": "Gulp",
+          "progress": "15",
+          "color": ""
+        },
+        {
+          "id": "7",
+          "title": "Webpack",
+          "progress": "25",
+          "color": ""
+        },
+        {
+          "id": "8",
+          "title": "React",
+          "progress": "48",
+          "color": ""
+        },
+        {
+          "id": "9",
+          "title": "Vue",
+          "progress": "33",
+          "color": ""
+        },
+        {
+          "id": "10",
+          "title": "Redux",
+          "progress": "23",
           "color": ""
         }
       ]
