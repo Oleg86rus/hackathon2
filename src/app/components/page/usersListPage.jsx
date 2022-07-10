@@ -1,12 +1,12 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { NavLink } from "react-router-dom";
 import Badges from "../common/badges/badges";
 import Bookmark from "../common/bookmark/bookmark";
 import { useSelector } from "react-redux";
 import { getUsersList } from "../../store/usersSlice";
 import { Container } from "react-bootstrap";
 import Loading from "../ui/loading";
+import OpenUserCard from "../common/openUserCard";
 
 const UsersListPage = () => {
   const users = useSelector(getUsersList());
@@ -32,9 +32,7 @@ const UsersListPage = () => {
                     repellendus impedit quasi quas possimus, enim, nam expedita
                     error, incidunt deleniti praesentium cumque corporis!
                 </Card.Text>
-                <NavLink className="btn btn-orange" to={`/users/${user.id}`}>
-                    Открыть
-                </NavLink>
+                <OpenUserCard user={user}/>
               </Card.Body>
               <Bookmark status={status} userId={user.id} users={users}/>
             </Card>
