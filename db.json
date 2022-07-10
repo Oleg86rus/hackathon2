@@ -239,14 +239,14 @@
         {
           "id": "1",
           "title":  "Карточка студента",
-          "img":  "https://disk.yandex.ru/i/YY1uwIMI6MXLgg",
+          "img":  "",
           "description": "Проект создан на основе технологий HTML и CSS",
           "url": "https://github.com/Oleg86rus?tab=repositories"
         },
         {
           "id": "2",
           "title":  "Fast company",
-          "img":  "https://disk.yandex.ru/i/vQ6qN8MktKDo4g",
+          "img":  "",
           "description": "Проект создан для демонстрации работ и удобной связи со мной ",
           "url": "https://github.com/Oleg86rus/fast-company"
         }

@@ -10,7 +10,10 @@ const Bookmark = ({ userId, users }) => {
     setStatus(!status);
     const user = users.filter((user) => {
       if (user.id === id) {
-        return ({ ...user, bookmark: !user.bookmark});
+        const newstatus = !user.bookmark;
+        console.log(!user.bookmark);
+        const result = { ...user, bookmark: !user.bookmark};
+        return result;
       }
     }
     );

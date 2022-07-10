@@ -3,13 +3,9 @@ import Breadcrumb from "react-bootstrap/Breadcrumb";
 import { NavLink, useHistory, useParams, withRouter } from "react-router-dom";
 import {FcHome} from "@react-icons/all-files/fc/FcHome";
 import {Container} from "react-bootstrap";
-import { useSelector } from "react-redux";
-import { getUserById } from "../../store/usersSlice";
-import Loading from "../ui/loading";
 
 const Breadcrumbs = () => {
-  // const { userId } = useParams();
-  // const user = useSelector(getUserById(userId));
+
   const {location} = useHistory();
   const {pathname} = location;
   const pathnames = pathname.split("/").filter((el) => el);
