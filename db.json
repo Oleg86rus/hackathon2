@@ -2,8 +2,8 @@
   "users": [
     {
       "id": 1,
-      "name": "Vera",
-      "surname": "Petrova",
+      "name": "Вера",
+      "surname": "Петрова",
       "age": "25",
       "bookmark": false,
       "about": "Меня зовут Вера. Мне 25 лет. По образованию биохимик и эколог. За время учебы в университете получила с отличием 2 диплома и огромный багаж знаний. Работала учителем в сельской школе и поняла, что в этой сфере есть свои ограничения. В данный момент времени заканчиваю курс «Junior Frontend Developer». До этого работала в компании One Touch фронтенд разработчиком. Прошла стажировку (была официально устроена), но в связи с некоторыми печальными обстоятельствами вынуждена была уйти. За время работы выполняла мелкие поручения, а также начала вести свой собственный проект на технологии Quasar. Имею опыт работы с Git, legacy-код (соединение php, js, jquery, битрикс), препроцессоры, Bootstrap, Material, Webpack, Vue, Gulp, React, Mongo BD, laravel, БЭМ, Figma, GitLab.",
@@ -262,14 +262,14 @@
         {
           "id": "1",
           "title":  "Карточка студента",
-          "img":  "",
+          "img":  "https://i.ibb.co/MpD9xFy/portfolio.png",
           "description": "Проект создан на основе технологий HTML и CSS",
           "url": "https://github.com/Oleg86rus?tab=repositories"
         },
         {
           "id": "2",
           "title":  "Fast company",
-          "img":  "",
+          "img":  "https://i.ibb.co/w6TLJN9/fastcompany.png",
           "description": "Проект создан для демонстрации работ и удобной связи со мной ",
           "url": "https://github.com/Oleg86rus/fast-company"
         }
