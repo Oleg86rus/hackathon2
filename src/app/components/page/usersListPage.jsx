@@ -13,13 +13,16 @@ const UsersListPage = () => {
   const url = location.pathname;
   return (
     <Container>
-      {!users ? <Loading/>
+      {/* {!users ? <Loading/>
         : ( <div className="cards-wrapper">
           {url === "/favorites"
             ? <RenderingUsers usersList={favoriteUsers}/>
             : <RenderingUsers usersList={users}/>
           }
-        </div>)}
+        </div>)} */}
+      <div className="cards-wrapper">
+        <RenderingUsers usersList={users} />
+      </div>
     </Container>
   );
 };
