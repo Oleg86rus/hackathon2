@@ -1,6 +1,7 @@
-import React, { useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { getBookmark } from "../../../store/usersSlice";
+import React from "react";
+import { useSelector } from "react-redux";
+import { getStatus } from "../../../store/usersSlice";
+import "./bookmark.css";
 
 const Bookmark = ({ userId, users }) => {
   const dispatch = useDispatch();

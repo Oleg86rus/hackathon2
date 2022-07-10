@@ -9,54 +9,54 @@
       "about": "Меня зовут Вера. Мне 25 лет. По образованию биохимик и эколог. За время учебы в университете получила с отличием 2 диплома и огромный багаж знаний. Работала учителем в сельской школе и поняла, что в этой сфере есть свои ограничения. В данный момент времени заканчиваю курс «Junior Frontend Developer». До этого работала в компании One Touch фронтенд разработчиком. Прошла стажировку (была официально устроена), но в связи с некоторыми печальными обстоятельствами вынуждена была уйти. За время работы выполняла мелкие поручения, а также начала вести свой собственный проект на технологии Quasar. Имею опыт работы с Git, legacy-код (соединение php, js, jquery, битрикс), препроцессоры, Bootstrap, Material, Webpack, Vue, Gulp, React, Mongo BD, laravel, БЭМ, Figma, GitLab.",
       "img": "https://sun9-east.userapi.com/sun9-25/s/v1/ig2/0BO4eA4SBjT5_obIUIMtLNH_eJ31FNLAs7RBQ9XLTMALdokOtiVbL0Q6WdxDoOCda8Lv6adHPOXX5xUMr1qVEuaS.jpg?size=1617x2160&quality=95&type=album",
       "socialNetworks": {
-          "telegram": "https://xn--80affa3aj0al.xn--80asehdb/#/im",
-          "instagram": "https://www.instagram.com/another_makizar/",
-          "facebook": "https://www.facebook.com/Petr0vaVera",
-          "github": "https://github.com/Krab-Krim",
-          "linkedin": "https://www.linkedin.com/feed/",
-          "headhunter": "https://hh.ru/resume/1d087f27ff08c6fa890039ed1f68666c754e66"
-        },
+        "telegram": "https://xn--80affa3aj0al.xn--80asehdb/#/im",
+        "instagram": "https://www.instagram.com/another_makizar/",
+        "facebook": "https://www.facebook.com/Petr0vaVera",
+        "github": "https://github.com/Krab-Krim",
+        "linkedin": "https://www.linkedin.com/feed/",
+        "headhunter": "https://hh.ru/resume/1d087f27ff08c6fa890039ed1f68666c754e66"
+      },
       "involvedInDevelopment": "Что же на счет меня самой, то я часть этого большого механизма. Однако, выполняла поставленные задачи в срок и с большим усердием. Разработала компоненты для реализации персональной страницы пользователя. Предложила готовые библиотеки для реализации некоторых задач из ТЗ.",
       "slider": [
         {
           "id": "1",
-          "title":  "Калькулятор стоимости дома из бруса",
-          "img":  "https://sun9-north.userapi.com/sun9-88/s/v1/ig2/YOF8zfEkhcp81YTDrpjdVwD8qpUQtEKnIlLid7B63SG8PYiuvtoTzTxVOSeblQB-oVR_qMsRj5PFOT3DzLnEIIG8.jpg?size=1325x845&quality=96&type=album",
+          "title": "Калькулятор стоимости дома из бруса",
+          "img": "https://sun9-north.userapi.com/sun9-88/s/v1/ig2/YOF8zfEkhcp81YTDrpjdVwD8qpUQtEKnIlLid7B63SG8PYiuvtoTzTxVOSeblQB-oVR_qMsRj5PFOT3DzLnEIIG8.jpg?size=1325x845&quality=96&type=album",
           "description": "Проект создан для расчета стоимости дома. В данный калькулятор входит измерение площади дома, выбор типа постройки, количества комнат и широкий профиль дополнительных услуг. При большом количестве запросов калькулятор быстро рассчитывает итоговую стоимость",
           "url": "https://github.com/Krab-Krim/calculator"
         },
         {
           "id": "2",
-          "title":  "Калькулятор стоимости дома из бруса",
-          "img":  "https://sun9-north.userapi.com/sun9-88/s/v1/ig2/3qvCENaHQ1j6wa_-FaZfJqHSlcghRrpQH7dsos4vm0KAj6jpTjJAlP93G6prmh_KUvig_0Bqt-yIIFr6IrIdTCYb.jpg?size=1441x926&quality=96&type=album",
+          "title": "Калькулятор стоимости дома из бруса",
+          "img": "https://sun9-north.userapi.com/sun9-88/s/v1/ig2/3qvCENaHQ1j6wa_-FaZfJqHSlcghRrpQH7dsos4vm0KAj6jpTjJAlP93G6prmh_KUvig_0Bqt-yIIFr6IrIdTCYb.jpg?size=1441x926&quality=96&type=album",
           "description": "Проект создан для расчета стоимости автомобиля в лизинг. При расчете конечной стоимости автомобиля используется разная ставка для каждого банка. С помощью ползунка вы можете выбрать стоимость автомобиля, срок лизинга и первоначальный взнос. Калькулятор способен рассчитать и точно вывести сумму кредита, ежемесячный платеж, рекомендуемый доход и сумма договора лизинга",
           "url": "https://github.com/Krab-Krim/test"
         },
         {
           "id": "3",
-          "title":  "Карточка студента",
-          "img":  "https://sun9-east.userapi.com/sun9-25/s/v1/ig2/8Ld0wY03uykN6-51RKNEiy0xum5HvA-edEQagpXdY_lQOatu1lkn0Dvf_y-7i8l-x8Rox0a-UiVWwYv5pxw5obf6.jpg?size=1900x928&quality=96&type=album",
+          "title": "Карточка студента",
+          "img": "https://sun9-east.userapi.com/sun9-25/s/v1/ig2/8Ld0wY03uykN6-51RKNEiy0xum5HvA-edEQagpXdY_lQOatu1lkn0Dvf_y-7i8l-x8Rox0a-UiVWwYv5pxw5obf6.jpg?size=1900x928&quality=96&type=album",
           "description": "Проект создан на основе технологий HTML и CSS",
           "url": "https://github.com/Krab-Krim/test"
         },
         {
           "id": "4",
-          "title":  "Портфолио",
-          "img":  "https://sun9-north.userapi.com/sun9-87/s/v1/ig2/81uxv2Id8SMfYLluGpyiQ7hO-OiUGwp0fIJu-nnbBquLaWYCN-YKVsGD3u7rO_I9xe3vPyaoOv-1o4Du3fNoFn6G.jpg?size=1291x929&quality=96&type=album",
+          "title": "Портфолио",
+          "img": "https://sun9-north.userapi.com/sun9-87/s/v1/ig2/81uxv2Id8SMfYLluGpyiQ7hO-OiUGwp0fIJu-nnbBquLaWYCN-YKVsGD3u7rO_I9xe3vPyaoOv-1o4Du3fNoFn6G.jpg?size=1291x929&quality=96&type=album",
           "description": "Проект создан для демонстрации работ и удобной связи со мной ",
           "url": "https://github.com/Krab-Krim/card"
         },
         {
           "id": "5",
-          "title":  "Тестовое задание",
-          "img":  "https://sun9-west.userapi.com/sun9-47/s/v1/ig2/nljVGkKT7L5f9e2Oz-YnJzZ0v1-3jLJmr7-BaesjpqitmFQ1ECjnBuBgA-qi8EvG7Af0QwODnlFPUuA-5GKv7Ipk.jpg?size=1855x924&quality=96&type=album",
+          "title": "Тестовое задание",
+          "img": "https://sun9-west.userapi.com/sun9-47/s/v1/ig2/nljVGkKT7L5f9e2Oz-YnJzZ0v1-3jLJmr7-BaesjpqitmFQ1ECjnBuBgA-qi8EvG7Af0QwODnlFPUuA-5GKv7Ipk.jpg?size=1855x924&quality=96&type=album",
           "description": "Тестовое задание",
           "url": "https://github.com/Krab-Krim/prototype"
         },
         {
           "id": "6",
-          "title":  "Дипломная работа",
-          "img":  "https://sun9-north.userapi.com/sun9-87/s/v1/ig2/Q_MFrDAk99H3exY-wyYlXmWIJzeOlWsRI0VGVgteIW82B8m5PME11-_-FqGg96jaNKgsfCCSz4o1FrOTgv63hvY5.jpg?size=1865x921&quality=96&type=album",
+          "title": "Дипломная работа",
+          "img": "https://sun9-north.userapi.com/sun9-87/s/v1/ig2/Q_MFrDAk99H3exY-wyYlXmWIJzeOlWsRI0VGVgteIW82B8m5PME11-_-FqGg96jaNKgsfCCSz4o1FrOTgv63hvY5.jpg?size=1865x921&quality=96&type=album",
           "description": "Дипломная работа по окончаю курса",
           "url": "https://github.com/Krab-Krim/diploma"
         }
@@ -122,6 +122,18 @@
           "progress": "23",
           "color": ""
         }
+      ],
+      "badges": [
+        "css",
+        "bootstrap",
+        "react",
+        "html",
+        "gulp",
+        "webpack",
+        "redux",
+        "git",
+        "vue",
+        "javascript"
       ]
     },
     {
@@ -131,7 +143,7 @@
       "age": "25",
       "about": "",
       "bookmark": false,
-      "img": "",
+      "img": "https://i.ibb.co/N7QK37R/tahir.jpg",
       "socialNetworks": {
         "vk": "https://vk.com/id45281246",
         "telegram": "https://t.me/result_school_it",
@@ -217,6 +229,17 @@
           "progress": "23",
           "color": ""
         }
+      ],
+      "badges": [
+        "css",
+        "bootstrap",
+        "react",
+        "html",
+        "gulp",
+        "webpack",
+        "redux",
+        "git",
+        "javascript"
       ]
     },
     {
@@ -226,7 +249,7 @@
       "age": "30",
       "about": "Последние 5 лет работал в направлениях бизнес/системной аналитики.\n\nПрохожу обучение в школе Владилена Минина “Result School” на курсе “JavaScript Junior Developer”.\nИмеются базовые знания:\n- HTML;\n- CSS, Bootstrap;\n- JavaScript;\n- Webpack;\n- React / React hooks + сторонние библиотеки;\n- Redux (Redux Toolkit);\n- Firebase / MongoDB;\n- Git (GitFlow);\n\nВ ближайшее время будут изучены:\n- NodeJS;\n- Docker;\n- MongoDB;\n- Express;\n- Tailwind CSS. Участвовал в Хакатоне(JS) по прохождению модуля JS, был лидером команды, заняли первое место среди потока.",
       "bookmark": false,
-      "img": "",
+      "img": "https://i.ibb.co/Rz9jX7f/oleg.webp",
       "socialNetworks": {
         "telegram": "https://t.me/oleg086rus/",
         "instagram": "https://www.instagram.com/oleg086rus/",
@@ -239,14 +262,14 @@
         {
           "id": "1",
           "title":  "Карточка студента",
-          "img":  "https://disk.yandex.ru/i/YY1uwIMI6MXLgg",
+          "img":  "https://i.ibb.co/MpD9xFy/portfolio.png",
           "description": "Проект создан на основе технологий HTML и CSS",
           "url": "https://github.com/Oleg86rus?tab=repositories"
         },
         {
           "id": "2",
           "title":  "Fast company",
-          "img":  "https://disk.yandex.ru/i/vQ6qN8MktKDo4g",
+          "img":  "https://i.ibb.co/w6TLJN9/fastcompany.png",
           "description": "Проект создан для демонстрации работ и удобной связи со мной ",
           "url": "https://github.com/Oleg86rus/fast-company"
         }
@@ -312,6 +335,17 @@
           "progress": "23",
           "color": ""
         }
+      ],
+      "badges": [
+        "css",
+        "bootstrap",
+        "react",
+        "html",
+        "gulp",
+        "webpack",
+        "redux",
+        "git",
+        "javascript"
       ]
     },
     {
@@ -321,7 +355,7 @@
       "age": "25",
       "about": "",
       "bookmark": false,
-      "img": "",
+      "img": "https://i.ibb.co/TTJxy63/sergey.jpg",
       "socialNetworks": "",
       "involvedInDevelopment": "Разрабатывал слайдер, участвовал в совместном кодинге, исправлении ошибок, согласовании идей. Просто классный парень.",
       "slider": [
@@ -401,6 +435,17 @@
           "progress": "23",
           "color": ""
         }
+      ],
+      "badges": [
+        "css",
+        "bootstrap",
+        "react",
+        "html",
+        "gulp",
+        "webpack",
+        "redux",
+        "git",
+        "javascript"
       ]
     },
     {
@@ -408,43 +453,78 @@
       "name": "Лена",
       "surname": "Ерофеева",
       "age": "39",
-      "about": "",
+      "about": "Люблю кодить и не замечаю как летит время. Прошла базовый курс по JavaScript на learn.javascrip.ru. Сейчас учусь на курсе Владилена Минина. Участвовала в хакатоне. Команда, с которой я кодила заняла первое место на потоке. Из прошлого опыта работы вынесла шикарный набор Софт скилов. Умею слушать советы и умею давать их сама. Много работала и в коллективах и самостоятельно. Была и руководителем, и помощником, и наставником. А еще люблю котиков и фильмы Marvel :)",
       "bookmark": false,
       "img": "https://i.ibb.co/PzwKcYj/photo.jpg",
-      "socialNetworks": "",
-      "involvedInDevelopment": "",
+      "socialNetworks": {
+        "telegram": "https://t.me/notkabene",
+        "instagram": "https://www.instagram.com/notka_bene/",
+        "facebook": "https://www.facebook.com/Notkabene",
+        "github": "https://github.com/Notkabene",
+        "linkedin": "https://www.linkedin.com/feed/",
+        "headhunter": "https://spb.hh.ru/resume/a2d3bfc7ff008c226b0039ed1f736563726574"
+      },
+      "involvedInDevelopment": "Разработала компоненты для реализации Главной страницы и дорабатывала стили для единой визуальноой части",
       "slider": [
         {
-          "id": "",
-          "title":  "",
-          "img":  "",
-          "description": "",
-          "url": ""
+          "id": "1",
+          "title": "Сайт для фотографа",
+          "img": "https://i.ibb.co/s9VqHZx/elivosk.jpg",
+          "description": "Верстка сайт для фотографа с блогом и интернет-магазином",
+          "url": "https://erofeeva.xyz/elivosk/index.html"
+        },
+        {
+          "id": "2",
+          "title": "Сайт строительной компании СК Мегалит",
+          "img": "https://i.ibb.co/HqDWNmV/megalit.jpg",
+          "description": "Верстка сайта строительной компании",
+          "url": "http://skmegalit.pro/"
+        },
+        {
+          "id": "3",
+          "title": "Alphawrap",
+          "img": "https://i.ibb.co/6gmMCRg/alphawrap.jpg",
+          "description": "Первый заказ. Верстка сайта с макета в pdf",
+          "url": "https://alphawrap.ru/"
+        },
+        {
+          "id": "4",
+          "title": "Портфолио",
+          "img": "https://i.ibb.co/XtsXHTx/portfolio.jpg",
+          "description": "Проект создан для демонстрации работ и удобной связи со мной ",
+          "url": "https://erofeeva.xyz/"
+        },
+        {
+          "id": "5",
+          "title": "РСФ Глория",
+          "img": "https://i.ibb.co/tzrB5Ww/gloria.jpg",
+          "description": "Срочный заказ. За 1 сутки нужно было восстановить сайт по памяти прошлого верстальщика. Без макета",
+          "url": "https://erofeeva.xyz/gloria/index.html"
         }
       ],
       "progressBar": [
         {
           "id": "1",
           "title": "HTML",
-          "progress": "60",
+          "progress": "90",
           "color": ""
         },
         {
           "id": "2",
           "title": "CSS",
-          "progress": "50",
+          "progress": "90",
           "color": ""
         },
         {
           "id": "3",
           "title": "JavaScript",
-          "progress": "47",
+          "progress": "68",
           "color": ""
         },
         {
           "id": "4",
           "title": "Git",
-          "progress": "30",
+          "progress": "55",
           "color": ""
         },
         {
@@ -456,7 +536,7 @@
         {
           "id": "6",
           "title": "Gulp",
-          "progress": "15",
+          "progress": "70",
           "color": ""
         },
         {
@@ -468,21 +548,32 @@
         {
           "id": "8",
           "title": "React",
-          "progress": "48",
+          "progress": "62",
           "color": ""
         },
         {
           "id": "9",
           "title": "Vue",
-          "progress": "33",
+          "progress": "3",
           "color": ""
         },
         {
           "id": "10",
           "title": "Redux",
-          "progress": "23",
+          "progress": "20",
           "color": ""
         }
+      ],
+      "badges": [
+        "css",
+        "bootstrap",
+        "react",
+        "html",
+        "gulp",
+        "webpack",
+        "redux",
+        "git",
+        "javascript"
       ]
     }
   ]

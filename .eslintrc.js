@@ -7,13 +7,13 @@ module.exports = {
     ecmaFeatures: {
       jsx: true
     },
-    ecmaVersion: 'latest',
-    sourceType: 'module'
+    ecmaVersion: "latest",
+    sourceType: "module"
   },
-  plugins: ['react'],
+  plugins: ["react"],
   rules: {
-    indent: ['error', 2],
-    semi: [2, 'always'],
+    indent: ["error", 2],
+    semi: [2, "always"],
     quotes: ["error", "double"]
   }
 };
