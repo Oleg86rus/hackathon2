@@ -9,6 +9,10 @@ import {getDataStatus, getUserById} from "../../store/usersSlice";
 import {useParams} from "react-router-dom";
 import Loading from "../ui/loading";
 import SliderBox from "../ui/slider/slider";
+import Wave from "../common/vawe/wave";
+import Progress from "../common/progress";
+import BackButton from "../common/backButton";
+import Bookmark from "../common/bookmark/bookmark";
 
 const UserPage = () => {
   const {userId} = useParams();
@@ -20,6 +24,14 @@ const UserPage = () => {
         : (
           <>
             <Container>
+              <Row>
+                <Col>
+                  <BackButton/>
+                </Col>
+                <Col className="usePage d-flex justify-content-end">
+                  <Bookmark/>
+                </Col>
+              </Row>
               <Row>
                 <Col xs={6} md={6} className="mt-5 d-flex">
                   <Row className="d-flex flex-column">
@@ -99,34 +111,65 @@ const UserPage = () => {
               <h3>
                 Мы, как специалисты можем предложить подходящую модель для решения ваших проблем
               </h3>
-              <h5 className="mt-4">
-                НО!!! Немного о себе
-              </h5>
             </div>
             <Container>
               <Row>
+                <Col>
+                  <Col className="d-flex flex-column align-items-center">
+                    <h2>
+                      Обо мне
+                    </h2>
+                  </Col>
+                  <Col className="d-flex flex-column align-items-center">
+                    <Line/>
+                  </Col>
+                </Col>
+              </Row>
+              <Row className="mt-3">
                 <Col>
                   <p>
                     {user.about}
                   </p>
                 </Col>
               </Row>
-              <Row>
-                <Col>
-                  <h2 className="m-5">
-                    Progress
-                    Указываем, какие технологии знает человек и на сколько процентов
-                  </h2>
+              <Row className="mt-5">
+                <Row>
+                  <Col>
+                    <Col className="d-flex flex-column align-items-center">
+                      <h2>
+                        Ключевые навыки
+                      </h2>
+                    </Col>
+                    <Col className="d-flex flex-column align-items-center">
+                      <Line/>
+                    </Col>
+                  </Col>
+                </Row>
+                <Col className="mt-3">
+                  <Progress user={user.progressBar}/>
                 </Col>
               </Row>
               <Row className="mt-5">
-                <Col>
+                <Row>
+                  <Col>
+                    <Col className="d-flex flex-column align-items-center">
+                      <h2>
+                        Мои работы
+                      </h2>
+                    </Col>
+                    <Col className="d-flex flex-column align-items-center">
+                      <Line/>
+                    </Col>
+                  </Col>
+                </Row>
+                <Col className="mt-5">
                   <SliderBox userSlider={user.slider}/>
                 </Col>
               </Row>
             </Container>
           </>
         )}
+      <Wave/>
     </>
   );
 };
