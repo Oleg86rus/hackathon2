@@ -1,70 +1,89 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# ___```Hackaton #2```___
 
-## Available Scripts
 
-In the project directory, you can run:
+---
+## Запуск проекта
 
-### `npm start`
+1) Выполнить в терминале команду `npm run start`
+2) Выполнить в терминале команду `json-server --watch db.json --port 3004`**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**если вы используете VSC, перед запуском сервера необходимо вручную установить пакет (выполнить в терминале команду `npm install -g json-server`)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## Начальные данные
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**В проекте находится:**
 
-### `npm run build`
+- Стили плагина в файле ` styles.css`
+- Базовые классы в папке `/src/core/`
+  Файлы в этой папке изменять не нужно!
+- Конфигурация `webpack`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Задачи
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Сгенерируйте проект при помощи `create-react-app`.
+2. Разделите страницы, компоненты между собой (кто чем будет заниматься) и разработайте сайт команды.
+3. Реализовать 3-5 модулей для меню
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Структура сайта
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Сайт состоит из нескольких страниц
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Минимальный набор страниц
 
-### Analyzing the Bundle Size
+- **Главная**
+    - Отобразить информацию о команде (минимум - просто текстовая информация)
+    - Представить каждого участника команды (список с [карточками](https://www.notion.so/617b323ef4434c34b7906c9270015da2))
+- **Страница участника**
+    - Отобразить информацию о человеке
+        - Имя, фамилия
+        - Возраст
+        - О себе
+        - Фото (если нет фотографии, то любимая картинка)
+        - Социальные сети
+        - Чем занимался в разработке данного проекта
+    - Использовать общие компоненты
+        - [Progress](https://www.notion.so/617b323ef4434c34b7906c9270015da2)
+          Указываем, какие технологии знает человек и на сколько процентов
+        - [Badge](https://www.notion.so/617b323ef4434c34b7906c9270015da2)
+          Например можно пометить, что человек является тимлидом
+        - [Свой компонент](https://www.notion.so/617b323ef4434c34b7906c9270015da2) (по желанию)
+        - [Slider](https://www.notion.so/617b323ef4434c34b7906c9270015da2) (по желанию)
+          Например, вывести в slider работы из портфолио
+    - Реализовать возможность **добавления в избранное** (кнопка)
+      Добавление происходит в [localStorage](https://youtu.be/3-bZ7gLVSzo), избранные участники должны отображаться в виде [карточек](https://www.notion.so/617b323ef4434c34b7906c9270015da2) на странице "[Избранные](https://www.notion.so/617b323ef4434c34b7906c9270015da2)".
+      Также должна быть возможность **удалить из избранных**.
+- **Избранные**
+    - Вывод избранных участников из [localStorage](https://youtu.be/3-bZ7gLVSzo) (список с [карточками](https://www.notion.so/617b323ef4434c34b7906c9270015da2))
+    - Возможность удаления из избранного
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## Критерии оценивания
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Качество кода
+- Универсальные компоненты
+- Архитектура
+- Использование [PropTypes](https://www.npmjs.com/package/prop-types)
+- Визуальное оформление
+- Собственные компоненты (креативность компонентов и их количество)
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<kbd>___```Hackaton #2```___</kbd>  <kbd>___```React```___</kbd>  <kbd>___```Result School```___</kbd>  <kbd>___```Группа №20```___</kbd>
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Go To TOP](#TOP)
