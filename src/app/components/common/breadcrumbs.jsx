@@ -1,20 +1,28 @@
 import React from "react";
 import Breadcrumb from "react-bootstrap/Breadcrumb";
-import {NavLink, useHistory, withRouter} from "react-router-dom";
+import { NavLink, useHistory, useParams, withRouter } from "react-router-dom";
 import {FcHome} from "@react-icons/all-files/fc/FcHome";
 import {Container} from "react-bootstrap";
+import { useSelector } from "react-redux";
+import { getUserById } from "../../store/usersSlice";
+import Loading from "../ui/loading";
 
 const Breadcrumbs = () => {
+  // const { userId } = useParams();
+  // const user = useSelector(getUserById(userId));
   const {location} = useHistory();
   const {pathname} = location;
   const pathnames = pathname.split("/").filter((el) => el);
 
-  const routeTo = `/${pathnames.slice(1, 2).join("/")}`;
-
   const renderRoute = [
     {name: "/users", label: "Состав команды"},
     {name: "/favorites", label: "Избранные"},
-    {name: `/users${routeTo}`, label: `${routeTo}` }
+    // {name: `/users/${user.id}`, label: `${user.name} ` + `${user.id}` },
+    {name: "/users/1", label: "/ Вера Петрова" },
+    {name: "/users/2", label: "/ Тахир Иванов" },
+    {name: "/users/3", label: "/ Олег Потоцкий" },
+    {name: "/users/4", label: "/ Сергей Фомин" },
+    {name: "/users/5", label: "/ Елена Ерофеева" }
   ];
 
   const getPathnameHome = () => {

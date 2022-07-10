@@ -1,12 +1,13 @@
 import { createSlice, createAction } from "@reduxjs/toolkit";
 import localStorageService from "../services/localStorage.service";
+import favorites from "../components/layouts/favorites";
 
 const initialState = {
   isLoading: false,
   error: null,
   dataLoaded: false,
   users: null,
-  favorites: null,
+  favorites: [],
 };
 
 export const usersSlice = createSlice({
@@ -25,22 +26,33 @@ export const usersSlice = createSlice({
       state.isLoading = false;
       state.error = action.payload;
     },
-    addFavoriteUser(state, action) {
-      if (!Array.isArray(state.favorites)) {
-        state.favorites = [];
-      }
-      const { id } = state.users.filter((u) => u._id === action.payload);
-      state.users[id].bookmark = !state.users[id].bookmark;
-      state.favorites.push(action.payload);
-    },
+    // addFavoriteUser(state, action) {
+    //   if (!Array.isArray(state.users.favorites)) {
+    //     state.users.favorites = [];
+    //   }
+    //   const { id } = state.users.users.findIndex((u) => u._id === action.payload);
+    //   state.users.users[id].bookmark = !state.users.users[id].bookmark;
+    //   state.users.favorites.push(state.users.users[id]);
+    //   localStorage.setItem("favorites", state.users.favorites);
+    // },
     removeFavoriteUser(state, action) {
       state.favorites = state.favorites.filter((u) => u.id !== action.payload);
     },
+    getStatus(state, action) {
+      console.log(state);
+      console.log(action);
+      // const user = state.users.users[state.users.users.findIndex(u => u.id === action.payload.id)] = action.payload;
+      // const user = action.payload;
+      // console.log(user);
+      state.users.favorites.push(action.payload);
+      console.log(state.users.favorites);
+      localStorage.setItem("favorites", state.users.favorites);
+    }
   },
 });
 
 const { reducer: usersReducer, actions } = usersSlice;
-const { fetching, fetchSuccess, fetchError } = actions;
+const { fetching, fetchSuccess, fetchError, getStatus, addFavoriteUser } = actions;
 
 export const loadUsersList = () => async (dispatch) => {
   dispatch(fetching());
@@ -53,17 +65,12 @@ export const loadUsersList = () => async (dispatch) => {
   }
 };
 
-export const getStatus = (userId) => (state) => {
-  console.log(userId);
-  console.log(state);
-  return state.users.users.map((user) => {
-    console.log(userId);
-    console.log(user.id);
-    if (userId === user.id) {
-      return { ...user, bookmark: !user.bookmark };
-    }
-    return user;
-  });
+export const getBookmark = (user) => async (dispatch) => {
+  try {
+    await dispatch(getStatus(user));
+  } catch (e) {
+    console.log(e);
+  }
 };
 
 export const getUsersList = () => (state) => state.users.users;

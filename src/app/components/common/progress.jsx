@@ -12,7 +12,7 @@ const Progress = ({user}) => {
           </h4>
           <ProgressBar
             className="my-3"
-            variant="danger"
+            variant="info"
             animated
             now={user.progress}
             label={`${user.progress}%`}
