@@ -11,15 +11,14 @@ const UserPage = ({ userId }) => {
   const [user, setUser] = useState();
 
   useEffect(() => {
-    fetch("http://localhost:3004/users/1")
+    console.log("userId", userId);
+    fetch(`http://localhost:3004/users/${1}`)
+    // fetch(`http://localhost:3004/users/${userId}`)
       .then((res) => res.json())
       .then((result) => {
         setUser(result);
       });
   }, []);
-
-  console.log("user", user);
-  console.log("userId", userId);
 
   if (user === undefined) {
     return "...loading";

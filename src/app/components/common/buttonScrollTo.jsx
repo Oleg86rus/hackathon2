@@ -26,8 +26,8 @@ const ButtonScrollTo = () => {
             <Row>
               <Col className="d-flex justify-content-end">
                 <Button
-                  className="position-fixed me-5" style={{zIndex: 2}}
-                  variant="outline-success"
+                  className="position-fixed-button"
+                  variant="outline-secondary"
                   onClick={handleUpButton}
                 >
                   <IoArrowUpSharp/>

@@ -3,8 +3,10 @@ import PropTypes from "prop-types";
 import {NavLink} from "react-router-dom";
 import {AiFillInstagram} from "@react-icons/all-files/ai/AiFillInstagram";
 import {SiTelegram} from "@react-icons/all-files/si/SiTelegram";
-import {AiFillYoutube} from "@react-icons/all-files/ai/AiFillYoutube";
 import {AiFillFacebook} from "@react-icons/all-files/ai/AiFillFacebook";
+import {AiOutlineGithub} from "@react-icons/all-files/ai/AiOutlineGithub";
+import {FiLinkedin} from "@react-icons/all-files/fi/FiLinkedin";
+import {FaHeading} from "@react-icons/all-files/fa/FaHeading";
 
 const SocialNetworks = ({socialNetworks}) => {
   return (
@@ -16,7 +18,6 @@ const SocialNetworks = ({socialNetworks}) => {
       >
         <AiFillInstagram/>
       </NavLink>
-
       <NavLink
         className="navLinkStyle"
         target={"_blank"}
@@ -27,16 +28,30 @@ const SocialNetworks = ({socialNetworks}) => {
       <NavLink
         className="navLinkStyle"
         target={"_blank"}
-        to={{pathname: `${socialNetworks.telegram}`}}
+        to={{pathname: `${socialNetworks.facebook}`}}
       >
-        <AiFillYoutube/>
+        <AiFillFacebook/>
       </NavLink>
       <NavLink
         className="navLinkStyle"
         target={"_blank"}
-        to={{pathname: `${socialNetworks.telegram}`}}
+        to={{pathname: `${socialNetworks.github}`}}
       >
-        <AiFillFacebook/>
+        <AiOutlineGithub/>
+      </NavLink>
+      <NavLink
+        className="navLinkStyle"
+        target={"_blank"}
+        to={{pathname: `${socialNetworks.linkedin}`}}
+      >
+        <FiLinkedin/>
+      </NavLink>
+      <NavLink
+        className="navLinkStyle"
+        target={"_blank"}
+        to={{pathname: `${socialNetworks.headhunter}`}}
+      >
+        <FaHeading/>
       </NavLink>
     </>
   );
