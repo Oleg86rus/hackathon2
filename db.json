@@ -131,7 +131,7 @@
       "age": "25",
       "about": "",
       "bookmark": false,
-      "img": "https://disk.yandex.ru/i/r01mEj474OhTBg",
+      "img": "",
       "socialNetworks": {
         "vk": "https://vk.com/id45281246",
         "telegram": "https://t.me/result_school_it",
@@ -139,7 +139,7 @@
         "youtube": "https://www.youtube.com/c/VladilenMinin",
         "facebook": "https://www.facebook.com/"
       },
-      "involvedInDevelopment": "",
+      "involvedInDevelopment": "Начинал разработку прогрессбара и хлебных крошек, предлагал идеи, участвовал в обсуждении реализации проекта. Просто классный парень.",
       "slider": [
         {
           "id": "1",
@@ -224,11 +224,17 @@
       "name": "Олег",
       "surname": "Потоцкий",
       "age": "30",
-      "about": "",
+      "about": "Последние 5 лет работал в направлениях бизнес/системной аналитики.\n\nПрохожу обучение в школе Владилена Минина “Result School” на курсе “JavaScript Junior Developer”.\nИмеются базовые знания:\n- HTML;\n- CSS, Bootstrap;\n- JavaScript;\n- Webpack;\n- React / React hooks + сторонние библиотеки;\n- Redux (Redux Toolkit);\n- Firebase / MongoDB;\n- Git (GitFlow);\n\nВ ближайшее время будут изучены:\n- NodeJS;\n- Docker;\n- MongoDB;\n- Express;\n- Tailwind CSS. Участвовал в Хакатоне(JS) по прохождению модуля JS, был лидером команды, заняли первое место среди потока.",
       "bookmark": false,
-      "img": "https://disk.yandex.ru/i/4DwQlOcYF1-OFQ",
-      "socialNetworks": "",
-      "involvedInDevelopment": "",
+      "img": "",
+      "socialNetworks": {
+        "telegram": "https://t.me/oleg086rus/",
+        "instagram": "https://www.instagram.com/oleg086rus/",
+        "github": "https://github.com/Oleg86rus",
+        "linkedin": "https://www.linkedin.com/feed/",
+        "headhunter": "https://hh.ru/resume/e1cc7d94ff099aca950039ed1f703376766557"
+      },
+      "involvedInDevelopment": "Тимлид команды от группы №20 потока №3. Распределял задачи, контролировал процессы, внедрял Redux, организовывал совместный кодинг для решения задач, исправлял ошибки, принимал изменения. Просто классный парень.",
       "slider": [
         {
           "id": "1",
@@ -315,9 +321,9 @@
       "age": "25",
       "about": "",
       "bookmark": false,
-      "img": "https://disk.yandex.ru/i/vkn9dAz0j7YaKg",
+      "img": "",
       "socialNetworks": "",
-      "involvedInDevelopment": "",
+      "involvedInDevelopment": "Разрабатывал слайдер, участвовал в совместном кодинге, исправлении ошибок, согласовании идей. Просто классный парень.",
       "slider": [
         {
           "id": "1",
