@@ -18,7 +18,7 @@ const Slider = ({ userSlider }) => {
       >
         {userSlider.map((slide) => (
           <SwiperSlide key={slide.id}>
-            <Card style={{ width: "85%", margin: "0 70px" }}>
+            <Card style={{ width: "85%", margin: "0 70px", border: "none" }}>
               <Row>
                 <Col>
                   <Card.Img height="250" variant="left" src={slide.img} />

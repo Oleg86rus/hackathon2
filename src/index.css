@@ -58,6 +58,10 @@ code {
   right: 20px;
 }
 
+.usePage .heart {
+  position: inherit;
+}
+
 .heart:active {
   --button-scale: .95;
 }

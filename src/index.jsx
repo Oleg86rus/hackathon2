@@ -7,6 +7,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import {BrowserRouter} from "react-router-dom";
 import { Provider } from "react-redux";
 import { createStore } from "./app/store/createStore";
+import ScrollToTop from "./app/components/common/scrollToTop";
 
 const store = createStore();
 
@@ -14,6 +15,7 @@ ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
       <BrowserRouter>
+        <ScrollToTop/>
         <App/>
       </BrowserRouter>
     </Provider>
