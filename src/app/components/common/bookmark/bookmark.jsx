@@ -7,7 +7,6 @@ const Bookmark = ({ userId, users }) => {
   const dispatch = useDispatch();
   const [status, setStatus] = useState(false);
   const ToggleBookMark = (id) => {
-    console.log(id);
     setStatus(!status);
     const user = users.map((user) => {
       if (user.id === id) {
@@ -16,7 +15,6 @@ const Bookmark = ({ userId, users }) => {
       return user;
     }
     );
-    console.log(user);
     dispatch(getBookmark(user));
   };
 

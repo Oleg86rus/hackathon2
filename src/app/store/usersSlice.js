@@ -26,33 +26,19 @@ export const usersSlice = createSlice({
       state.isLoading = false;
       state.error = action.payload;
     },
-    // addFavoriteUser(state, action) {
-    //   if (!Array.isArray(state.users.favorites)) {
-    //     state.users.favorites = [];
-    //   }
-    //   const { id } = state.users.users.findIndex((u) => u._id === action.payload);
-    //   state.users.users[id].bookmark = !state.users.users[id].bookmark;
-    //   state.users.favorites.push(state.users.users[id]);
-    //   localStorage.setItem("favorites", state.users.favorites);
-    // },
     removeFavoriteUser(state, action) {
       state.favorites = state.favorites.filter((u) => u.id !== action.payload);
     },
     getStatus(state, action) {
-      console.log(state);
-      console.log(action);
-      // const user = state.users.users[state.users.users.findIndex(u => u.id === action.payload.id)] = action.payload;
-      // const user = action.payload;
-      // console.log(user);
-      state.users.favorites.push(action.payload);
-      console.log(state.users.favorites);
-      localStorage.setItem("favorites", state.users.favorites);
+      if (state.users.users) {
+        localStorage.setItem("favorites", state.users.users);
+      }
     }
   },
 });
 
 const { reducer: usersReducer, actions } = usersSlice;
-const { fetching, fetchSuccess, fetchError, getStatus, addFavoriteUser } = actions;
+const { fetching, fetchSuccess, fetchError, getStatus } = actions;
 
 export const loadUsersList = () => async (dispatch) => {
   dispatch(fetching());
@@ -66,10 +52,11 @@ export const loadUsersList = () => async (dispatch) => {
 };
 
 export const getBookmark = (user) => async (dispatch) => {
+  localStorageService.addBookmark([...user]);
   try {
     await dispatch(getStatus(user));
   } catch (e) {
-    console.log(e);
+    console.error(e);
   }
 };
 
@@ -88,9 +75,7 @@ export const getFavoriteUsers = () => (state) => state.favorites;
 export const pushIntoFavorites = (id) => async (dispatch) => {
   const content = await fetch("http://localhost:3004/users");
   const usersContent = await content.json();
-  console.log(id);
-  console.log(localStorageService.addBookmark(usersContent));
-  // dispatch(addFav(1));
+  
 };
 
 // export const removeOutOfFavorites = (id) => async (dispatch) => {

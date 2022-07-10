@@ -5,7 +5,6 @@ import Users from "./users";
 import { useSelector } from "react-redux";
 import { getDataStatus } from "../../store/usersSlice";
 import Loading from "../ui/loading";
-import Wave from "../common/vawe/wave";
 
 const Main = () => {
   const data = useSelector(getDataStatus());
@@ -15,12 +14,15 @@ const Main = () => {
         {data ? (
           <div className="main-wrapper">
             <TextAnimation text={"Добро пожаловать!"}/>
-            <p className="mb-5">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
-              dicta delectus quod voluptate quia corrupti accusamus, perferendis
-              totam id nisi ipsum maiores sed repellendus unde, dolor maxime
-              possimus veniam quisquam!
+            <p>
+              Данное приложение реализовала команда 20-й учебной группы 3-го потока на курсе "Junior Frontend Developer".
+              Для большинства участников команды инструменты были новыми.
+              Реализовать все задуманное в такой срок оказалось сложно, так как приходилось на лету осваивать стек и несколько раз переписывать отдельные части приложения.
+              
             </p>
+            <p>Мы не успели сделать полноценный, красивый и бесперебойно работающее приложение.
+              В будущем планируем тщательнее готовиться к участию, делать заготовки и наборы решений, которые можно будет быстро перекомпоновать под задачи хакатона.</p>
+            <p className="mb-5">P.S. мы старались</p>
             <Users/>
           </div>
         ) : <Loading/>}

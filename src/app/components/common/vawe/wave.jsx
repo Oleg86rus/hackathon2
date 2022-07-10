@@ -4,7 +4,7 @@ import "./wave.css";
 const Wave = () => {
 
   return (
-    <div >
+    <div className="footer">
       <svg
         className="waves"
         xmlns="http://www.w3.org/2000/svg"

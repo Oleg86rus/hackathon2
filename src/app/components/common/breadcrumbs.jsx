@@ -13,7 +13,6 @@ const Breadcrumbs = () => {
   const renderRoute = [
     {name: "/users", label: "Состав команды"},
     {name: "/favorites", label: "Избранные"},
-    // {name: `/users/${user.id}`, label: `${user.name} ` + `${user.id}` },
     {name: "/users/1", label: "/ Вера Петрова" },
     {name: "/users/2", label: "/ Тахир Иванов" },
     {name: "/users/3", label: "/ Олег Потоцкий" },

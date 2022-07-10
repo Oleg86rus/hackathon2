@@ -11,7 +11,7 @@ import Footer from "./app/components/ui/footer";
 
 function App() {
   return (
-    <div>
+    <div className="page">
       <AppLoader>
         <NavBar/>
         <Breadcrumbs/>
