@@ -7,6 +7,7 @@ import UserPage from "./app/components/page/userPage";
 import Users from "./app/components/layouts/users";
 import Favorites from "./app/components/layouts/favorites";
 import AppLoader from "./app/hok/AppLoader";
+import Footer from "./app/components/ui/footer";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/404" component={NotFound}/>
           <Redirect to="404"/>
         </Switch>
+        <Footer/>
       </AppLoader>
     </div>
   );

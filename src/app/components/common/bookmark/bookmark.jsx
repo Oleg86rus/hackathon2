@@ -2,6 +2,7 @@ import React from "react";
 import { useSelector } from "react-redux";
 // import pushIntoFavorites from "./";
 import { getStatus } from "../../../store/usersSlice";
+import "./bookmark.css";
 
 const Bookmark = ({ userId, users }) => {
   console.log(userId);

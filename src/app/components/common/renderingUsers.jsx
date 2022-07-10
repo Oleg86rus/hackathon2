@@ -20,16 +20,18 @@ const RenderingUsers = ({ usersList }) => {
               <Card.Img variant="top" src={user.img} />
             </div>
             <Card.Body className="text-body">
-              <Badges userId={user.id} />
-              <Card.Title className="mt-2">
-                {user.name} {user.surname}
-              </Card.Title>
-              <Card.Text className="mt-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Officiis officia aperiam sequi tenetur iure eaque rem
-                repellendus impedit quasi quas possimus, enim, nam expedita
-                error, incidunt deleniti praesentium cumque corporis!
-              </Card.Text>
+              <div className="card-wrapper">
+                <Badges userId={user.id} />
+                <Card.Title className="mt-2">
+                  {user.name} {user.surname}
+                </Card.Title>
+                <Card.Text className="mt-2">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Officiis officia aperiam sequi tenetur iure eaque rem
+                  repellendus impedit quasi quas possimus, enim, nam expedita
+                  error, incidunt deleniti praesentium cumque corporis!
+                </Card.Text>
+              </div>
               <OpenUserCard user={user} />
             </Card.Body>
             <Bookmark userId={user.id} users={usersList} />

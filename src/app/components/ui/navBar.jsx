@@ -3,8 +3,8 @@ import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
   return (
-    <nav className="navbar bg-light mb-3">
-      <div className="container-fluid">
+    <nav className="navbar navbar-orange mb-3">
+      <div className="container">
         <ul className="nav">
           <li className="nav-item">
             <NavLink exact className="nav-link" to="/">Главная</NavLink>
