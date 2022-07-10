@@ -5,7 +5,9 @@ import "./badges.css";
 
 const Badges = ({ userId }) => {
   const users = useSelector(getUsersList());
-  const badgesCurrentUser = users[userId - 1].badges;
+  const currentUser = users[userId - 1];
+  const badgesCurrentUser = currentUser.badges;
+  
   const badges = [
     {
       id: "css",
@@ -82,8 +84,8 @@ const Badges = ({ userId }) => {
 
   return (
     <div className="badges">
-      {badgesCurrentUser.map((badge) => (
-        <div className="me-2 badges__item" key={badge.id}>
+      {badgesCurrentUser.map((badge, i) => (
+        <div className="me-2 badges__item" key={i}>
           <img alt={getBadge(badge).name} srcSet={getBadge(badge).path} />
         </div>
       ))}

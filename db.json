@@ -141,7 +141,7 @@
       "name": "Тахир",
       "surname": "Иванов",
       "age": "25",
-      "about": "",
+      "about": "Прохожу обучение в школе Владилена Минина “Result School” на курсе “JavaScript Junior Developer”.",
       "bookmark": false,
       "img": "https://i.ibb.co/N7QK37R/tahir.jpg",
       "socialNetworks": {
@@ -353,7 +353,7 @@
       "name": "Сергей",
       "surname": "Фомин",
       "age": "25",
-      "about": "",
+      "about": "Прохожу обучение в школе Владилена Минина “Result School” на курсе “JavaScript Junior Developer”.",
       "bookmark": false,
       "img": "https://i.ibb.co/TTJxy63/sergey.jpg",
       "socialNetworks": "",

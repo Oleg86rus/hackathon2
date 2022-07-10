@@ -1,6 +1,6 @@
-import React from "react";
-import { useSelector } from "react-redux";
-import { getStatus } from "../../../store/usersSlice";
+import React, { useState } from "react";
+import { useDispatch } from "react-redux";
+import { getBookmark } from "../../../store/usersSlice";
 import "./bookmark.css";
 
 const Bookmark = ({ userId, users }) => {
@@ -9,13 +9,11 @@ const Bookmark = ({ userId, users }) => {
   const ToggleBookMark = (id) => {
     console.log(id);
     setStatus(!status);
-    const user = users.filter((user) => {
+    const user = users.map((user) => {
       if (user.id === id) {
-        const newstatus = !user.bookmark;
-        console.log(!user.bookmark);
-        const result = { ...user, bookmark: !user.bookmark};
-        return result;
+        return ({ ...user, bookmark: !user.bookmark});
       }
+      return user;
     }
     );
     console.log(user);

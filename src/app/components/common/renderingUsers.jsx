@@ -26,10 +26,7 @@ const RenderingUsers = ({ usersList }) => {
                   {user.name} {user.surname}
                 </Card.Title>
                 <Card.Text className="mt-2">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Officiis officia aperiam sequi tenetur iure eaque rem
-                  repellendus impedit quasi quas possimus, enim, nam expedita
-                  error, incidunt deleniti praesentium cumque corporis!
+                  {user.about}
                 </Card.Text>
               </div>
               <OpenUserCard user={user} />
