@@ -1,26 +1,16 @@
 import React, { useEffect, useState } from "react";
-import { Col, Container, Row } from "react-bootstrap";
+// import { Col, Container, Row } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
 import { NavLink } from "react-router-dom";
 import Badges from "../common/badges/badges";
 import Bookmark from "../common/bookmark/bookmark";
+import { useSelector } from "react-redux";
+import { getUsersList } from "../../store/users";
 
 const UsersListPage = () => {
-  const [users, setUser] = useState();
-
+  const users = useSelector(getUsersList());
   const status = true;
-
-  useEffect(() => {
-    fetch("http://localhost:3004/users")
-      .then((res) => res.json())
-      .then((result) => {
-        setUser(result);
-        localStorage.setItem("students", JSON.stringify(result));
-      });
-  }, []);
-
-
-  if (users === undefined) {
+  if (users === null) {
     return "...loading";
   } else {
     return (

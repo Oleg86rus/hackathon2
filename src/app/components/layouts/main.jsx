@@ -3,10 +3,16 @@ import { Container } from "react-bootstrap";
 import TextAnimation from "../common/textAnimation/textAnimation";
 import Wave from "../common/vawe/wave";
 import UsersListPage from "../page/usersListPage";
-import { stopTyping } from "../utils/stopTyping";
+import { stopTyping } from "../../utils/stopTyping";
+import Users from "./users";
 
 const Main = () => {
-  stopTyping();
+  
+  // try {
+  //   stopTyping();
+  // } catch (error) {
+  //   console.log(error);
+  // }
   return (
     <div className="main-wrapper">
       <Container>
@@ -19,7 +25,7 @@ const Main = () => {
           possimus veniam quisquam!
         </p>
 
-        <UsersListPage />
+        <Users/>
       </Container>
       <div
         className="RadialProgress"
