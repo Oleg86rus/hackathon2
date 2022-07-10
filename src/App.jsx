@@ -16,10 +16,10 @@ function App() {
         <Breadcrumbs/>
         <Switch>
           <Route path="/" exact component={Main}/>
-          <Route path="/users" component={Users}/>
+          <Route path="/users" exact component={Users}/>
           <Route path="/users/:userId?" component={UserPage}/>
           <Route path="/favorites" component={Favorites}/>
-          <Route path="/users/404" component={NotFound}/>
+          <Route path="/404" component={NotFound}/>
           <Redirect to="404"/>
         </Switch>
       </AppLoader>

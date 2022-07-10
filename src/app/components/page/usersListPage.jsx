@@ -32,7 +32,7 @@ const UsersListPage = () => {
                     repellendus impedit quasi quas possimus, enim, nam expedita
                     error, incidunt deleniti praesentium cumque corporis!
                 </Card.Text>
-                <NavLink className="btn btn-orange" to={`/user/${user.id}`}>
+                <NavLink className="btn btn-orange" to={`/users/${user.id}`}>
                     Открыть
                 </NavLink>
               </Card.Body>

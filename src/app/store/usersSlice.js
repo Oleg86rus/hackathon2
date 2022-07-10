@@ -29,7 +29,7 @@ export const usersSlice = createSlice({
 const {reducer: usersReducer, actions} = usersSlice;
 const {fetching, fetchSuccess, fetchError} = actions;
 
-export const loadUsersList = () => async (dispatch, getState) => {
+export const loadUsersList = () => async (dispatch) => {
   dispatch(fetching());
   try {
     const content = await fetch("http://localhost:3004/users");
@@ -47,7 +47,7 @@ export const getDataStatus = () => state => state.users.dataLoaded;
 export const getUsersLoadingStatus = () => state => state.users.isLoading;
 
 export const getUserById = (userId) => state => {
-  if (state.users.entities) return state.users.entities.find(u => u._id === userId);
+  if (state.users.users) return state.users.users.find(u =>u.id === userId);
 };
 
 export default usersReducer;
