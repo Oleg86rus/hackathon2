@@ -1,19 +1,20 @@
 import React from "react";
+import { useDispatch, useSelector } from "react-redux";
+import {
+  getUsersList,
+  pushIntoFavorites,
+  removeOutOfFavorites,
+} from "../../../store/usersSlice";
 
-const Bookmark = ({ status, userId, users }) => {
-  
-  const ToggleBookMark = (id) => {
-    users.map((user) => {
-      if (user.id === id) {
-        return { ...user, bookmark: !user.bookmark };
-      }
-      return user;
-    });
-  };
+const Bookmark = ({ userId }) => {
+  const dispatch = useDispatch();
+  const addUserToFavorite = useSelector(pushIntoFavorites());
+  const deleteUserFromFavorite = useSelector(removeOutOfFavorites());
+ 
   return (
     <button
       className={"heart" + (status ? " active" : "")}
-      onClick={() => ToggleBookMark(userId)}
+      onClick={status ? dispatch(deleteUserFromFavorite(userId)) : dispatch(addUserToFavorite(userId))}
     >
       <div className="heart-flip"></div>
     </button>
