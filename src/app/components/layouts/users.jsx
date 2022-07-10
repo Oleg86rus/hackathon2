@@ -1,20 +1,13 @@
 import React from "react";
 import UsersListPage from "../page/usersListPage";
-import {useParams} from "react-router-dom";
-import UserPage from "../page/userPage";
+import UsersLoader from "../../hok/Users";
 
 const Users = () => {
-  const params = useParams();
-  const {userId} = params;
-
-  console.log("params", params);
-
   return (
     <>
-      {userId
-        ? <UsersListPage/>
-        : <UserPage userId={userId}/>
-      }
+      <UsersLoader>
+        <UsersListPage/>
+      </UsersLoader>
     </>
   );
 };
