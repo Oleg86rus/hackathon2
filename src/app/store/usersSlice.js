@@ -1,11 +1,12 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice, createAction } from "@reduxjs/toolkit";
+import localStorageService from "../services/localStorage.service";
 
 const initialState = {
   isLoading: false,
   error: null,
   dataLoaded: false,
   users: null,
-  favorites: null
+  favorites: null,
 };
 
 export const usersSlice = createSlice({
@@ -13,30 +14,33 @@ export const usersSlice = createSlice({
   initialState,
   reducers: {
     fetching(state) {
-      state.loading = true;
+      state.isLoading = true;
     },
     fetchSuccess(state, action) {
-      state.loading = false;
+      state.isLoading = false;
       state.dataLoaded = true;
       state.users = action.payload;
     },
     fetchError(state, action) {
-      state.loading = false;
+      state.isLoading = false;
       state.error = action.payload;
     },
     addFavoriteUser(state, action) {
-      const {id} = state.users.findIndex(u=>u._id === action.payload);
+      if (!Array.isArray(state.favorites)) {
+        state.favorites = [];
+      }
+      const { id } = state.users.filter((u) => u._id === action.payload);
       state.users[id].bookmark = !state.users[id].bookmark;
       state.favorites.push(action.payload);
     },
     removeFavoriteUser(state, action) {
-      state.favorites = state.favorites.filter(u => u.id !== action.payload);
-    }
-  }
+      state.favorites = state.favorites.filter((u) => u.id !== action.payload);
+    },
+  },
 });
 
-const {reducer: usersReducer, actions} = usersSlice;
-const {fetching, fetchSuccess, fetchError, addFavoriteUser, removeFavoriteUser} = actions;
+const { reducer: usersReducer, actions } = usersSlice;
+const { fetching, fetchSuccess, fetchError } = actions;
 
 export const loadUsersList = () => async (dispatch) => {
   dispatch(fetching());
@@ -49,35 +53,47 @@ export const loadUsersList = () => async (dispatch) => {
   }
 };
 
-export const getUsersList = () => state => state.users.users;
-
-export const getDataStatus = () => state => state.users.dataLoaded;
-
-export const getUsersLoadingStatus = () => state => state.users.isLoading;
-
-export const getUserById = (userId) => state => {
-  if (state.users.users) return state.users.users.find(u =>u.id === userId);
+export const getStatus = (userId) => (state) => {
+  console.log(userId);
+  console.log(state);
+  return state.users.users.map((user) => {
+    console.log(userId);
+    console.log(user.id);
+    if (userId === user.id) {
+      return { ...user, bookmark: !user.bookmark };
+    }
+    return user;
+  });
 };
 
-export const getFavoriteUsers = () => state => state.favorites;
+export const getUsersList = () => (state) => state.users.users;
+
+export const getDataStatus = () => (state) => state.users.dataLoaded;
+
+export const getUsersLoadingStatus = () => (state) => state.users.isLoading;
+
+export const getUserById = (userId) => (state) => {
+  if (state.users.users) return state.users.users.find((u) => u.id === userId);
+};
+
+export const getFavoriteUsers = () => (state) => state.favorites;
 
 export const pushIntoFavorites = (id) => async (dispatch) => {
-  dispatch(addFavoriteUser(id));
-  try {
-    localStorage.setItem(USERS, state.favorites);
-  } catch (e) {
-    dispatch(fetchError(e.message));
-  }
+  const content = await fetch("http://localhost:3004/users");
+  const usersContent = await content.json();
+  console.log(id);
+  console.log(localStorageService.addBookmark(usersContent));
+  // dispatch(addFav(1));
 };
 
-export const removeOutOfFavorites = (id) => async (dispatch) => {
-  dispatch(removeFavoriteUser(id));
-  try {
-    localStorage.removeItem(USERS);
-    localStorage.setItem(USERS, state.favorites);
-  } catch (e) {
-    dispatch(fetchError(e.message));
-  }
-};
+// export const removeOutOfFavorites = (id) => async (dispatch) => {
+//   dispatch(removeFavoriteUser(id));
+//   try {
+//     localStorage.removeItem(USERS);
+//     localStorage.setItem(USERS, state.favorites);
+//   } catch (e) {
+//     dispatch(fetchError(e.message));
+//   }
+// };
 
 export default usersReducer;
