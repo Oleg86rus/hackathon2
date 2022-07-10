@@ -169,7 +169,6 @@ const UserPage = () => {
             </Container>
           </>
         )}
-      <Wave/>
     </>
   );
 };

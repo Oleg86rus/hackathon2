@@ -1,54 +1,94 @@
 import React from "react";
-import { Badge } from "react-bootstrap";
+import { useSelector } from "react-redux";
+import { getUsersList } from "../../../store/usersSlice";
+import "./badges.css";
 
-const Badges = ({ userId, users }) => {
+const Badges = ({ userId }) => {
+  const users = useSelector(getUsersList());
+  const badgesCurrentUser = users[userId - 1].badges;
   const badges = [
     {
       id: "css",
       name: "Css",
-      color: "success",
+      path: "https://img.shields.io/badge/css-1572B6.svg?&style=for-the-badge&logo=css3&logoColor=fff",
     },
     {
       id: "bootstrap",
       name: "Bootstrap",
-      color: "primary",
+      path: "https://img.shields.io/badge/bootstrap-7610F7.svg?&style=for-the-badge&logo=bootstrap&logoColor=fff",
+    },
+    {
+      id: "git",
+      name: "Git",
+      path: "https://img.shields.io/badge/git-f05133.svg?&style=for-the-badge&logo=git&logoColor=fff",
     },
     {
       id: "react",
       name: "React",
-      color: "warning",
+      path: "https://img.shields.io/badge/react-333333.svg?&style=for-the-badge&logo=react&logoColor=3DDAFD",
     },
     {
       id: "html",
       name: "Html",
-      color: "dark",
+      path: "https://img.shields.io/badge/html-F6843F.svg?&style=for-the-badge&logo=html5&logoColor=fff",
     },
     {
       id: "javascript",
       name: "javascript",
-      color: "success",
+      path: "https://img.shields.io/badge/javascript-F7DF1E.svg?&style=for-the-badge&logo=javascript&logoColor=000000",
     },
     {
       id: "webpack",
       name: "webpack",
-      color: "primary",
+      path: "https://img.shields.io/badge/webpack-2C3A43.svg?&style=for-the-badge&logo=webpack&logoColor=55A7DE",
     },
     {
       id: "redux",
       name: "redux",
-      color: "warning",
+      path: "https://img.shields.io/badge/redux-303030.svg?&style=for-the-badge&logo=redux&logoColor=7647BF",
     },
     {
       id: "firebase",
       name: "firebase",
-      color: "dark",
+      path: "https://img.shields.io/badge/firebase-FBCB2B.svg?&style=for-the-badge&logo=firebase&logoColor=F7810B",
+    },
+    {
+      id: "markdown",
+      name: "Markdown",
+      path: "https://img.shields.io/badge/markdown-000.svg?&style=for-the-badge&logo=markdown&logoColor=fff",
+    },
+    {
+      id: "mongodb",
+      name: "MongoDB",
+      path: "https://img.shields.io/badge/mongodb-26A944.svg?&style=for-the-badge&logo=mongodb&logoColor=fff",
+    },
+    {
+      id: "gulp",
+      name: "Gulp",
+      path: "https://img.shields.io/badge/gulp-e84c51.svg?&style=for-the-badge&logo=gulp&logoColor=000",
+    },
+    {
+      id: "vue",
+      name: "Vue",
+      path: "https://img.shields.io/badge/vue-41b883.svg?&style=for-the-badge&logo=vue&logoColor=fff",
     },
   ];
-  return badges.map((badge) => (
-    <Badge className="me-2" key={badge.id} bg={badge.color}>
-      {badge.name}
-    </Badge>
-  ));
+
+  const getBadge = (badgeCurrent) => {
+    return badges.find((badge) => {
+      return badge.id === badgeCurrent;
+    });
+  };
+
+  return (
+    <div className="badges">
+      {badgesCurrentUser.map((badge) => (
+        <div className="me-2 badges__item" key={badge.id}>
+          <img alt={getBadge(badge).name} srcSet={getBadge(badge).path} />
+        </div>
+      ))}
+    </div>
+  );
 };
 
 export default Badges;
