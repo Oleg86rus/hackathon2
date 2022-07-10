@@ -13,7 +13,7 @@ const NavBar = () => {
             <NavLink exact className='nav-link' to='/users'>Состав команды</NavLink>
           </li>
           <li className="nav-item">
-            <NavLink exact className='nav-link' to='/users'>Избранные</NavLink>
+            <NavLink exact className='nav-link' to='/favorites'>Избранные</NavLink>
           </li>
         </ul>
       </div>

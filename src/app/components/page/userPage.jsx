@@ -8,6 +8,7 @@ import { useSelector } from "react-redux";
 import { getDataStatus, getUserById } from "../../store/usersSlice";
 import { useParams } from "react-router-dom";
 import Loading from "../ui/loading";
+import SliderBox from "../ui/slider/slider";
 
 const UserPage = () => {
   const { userId } = useParams();
@@ -106,10 +107,11 @@ const UserPage = () => {
             Progress
             Указываем, какие технологии знает человек и на сколько процентов
             </h2>
-            <h2 className="m-5">
-            Slider (по желанию)
-            Например, вывести в slider работы из портфолио
-            </h2>
+            <Row className="mt-5">
+              <Col>
+                <SliderBox userSlider={user.slider} />
+              </Col>
+            </Row>
           </>
         )}
     </Container>
